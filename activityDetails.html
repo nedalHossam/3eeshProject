@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ'
+          crossorigin='anonymous'>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+
+
+
+
+    <link href="css/activityDetailStyle.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="divContainer">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn " onclick="closeNav()"><i class="fas fa-chevron-left  primary"></i></a>
+        <img class="imgSlideNav" src="images/Logoedit.png"/><br><br>
+        <div class="d-flex">
+            <a href="#"><img src="images/account.png" width="15px" height="15px"/>my account</a>
+            <a href="#"><img src="images/sign out.png" width="15px" height="15px"/>sign out</a>
+        </div>
+        <hr class="navLine">
+        <a href="#"><img src="images/home.png" width="15px" height="15px"/>&nbsp; home</a>
+        <a href="#"><img src="images/reservation list.png"  width="15px" height="15px"/>&nbsp;reservation lists</a>
+        <a href="#"><img src="images/ticket.png"  width="15px" height="15px"/>&nbsp;find reservation</a>
+        <a href="#"><img src="images/report.png" width="15px" height="15px"/>&nbsp;financial reports</a>
+        <a href="#"><img src="images/camping.png" width="15px" height="15px"/>&nbsp;my activities</a>
+        <a href="#"><img src="images/asset-15.png" width="15px" height="15px"/>&nbsp;add an advertisment</a>
+        <a href="#"><img src="images/services.png" width="15px" height="15px"/>&nbsp;services</a>
+        <a href="#">add new service</a>
+        <a href="#">previous request</a>
+    </div>
+    <div class="d-flex justify-content-between  ">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fas fa-align-left" style="color:white;margin-top: 11px;"></i></span>
+    <img class="imgheaderNav" src="images/Logo_white.png" width="77px" height="40px"/>
+    <a href="#"><p style="color:white;margin-top: 20px">AR</p></a>
+</div>
+
+    <!---------------------- end Navigation ---------------->
+    <div class=" d-flex justify-content-between sortIcon">
+        <div class="d-flex ">
+            <a href="#"><img src="images/filter.png " width="20px" height="20px"></a>
+            <p class="pl-2">filter</p>
+        </div>
+        <div class="d-flex ">
+            <a href="#"><img src="images/icons-filter-dark.png"  width="20px" height="20px"></a>
+            <p class="pl-2">sort</p>
+        </div>
+        <div class="d-flex float-right ">
+            <a href="mapPage.html"><i class="fa fa-map-marked-alt" style="color:white;  width:20px; height:20px"></i></a>
+            <p class="pl-2">map</p>
+        </div>
+        </div>
+</div>
+
+   
+
+<!-- slide
+    ==========================================-->
+<div class="container-fluid">
+    <div class="row backgroundImage">
+        <img src="images/IMG-20181108-WA0024.jpg" width="100%" height="110px">
+    </div>
+</div>
+
+
+<div class="container-fluid content">
+    <div class="clearfix Icons" id="allIcons">
+        <div class="float-left">
+            <span class="p-2"><a href="index.html"><i class="fas fa-globe-europe" style="color:#21cebe;"></i></a></span>
+            <span class="p-2"><a href="activityPage.html"><img src="images\001-camping.png" style="color:#21cebe; " width="25px" height="25px"></a></span>
+            <span class="p-2"><a href="mapPage.html"><i class="fa fa-map-marked-alt" style="color:#21cebe;"></i></a></span>
+        </div>
+
+        <div class="float-right">
+            <span  class="searchIcon  p-3"><button onclick="toggeleShow()" id="searchIcon" ><i class="fa fa-search" style="color:#21cebe;"></i></button></span>
+        </div>
+    </div>
+
+    <div class="row search-wrapper" id="searchInput">
+        <form>
+            <input type="text" name="focus" required class="search-box" placeholder="try a city name" />
+
+            <button type="button" class="close close-icon" data-dismiss="modal" onclick="closeSearch()"></button>
+        </form>
+    </div>
+
+</div>
+
+<div class="container-fluid  allActivity" id="nextSearch">
+                    <div class="row items">
+                        <div class="col-md-7 col-sm-6 col-6">
+                            <a href="slideShowActivity.html"><img class="img-fluid activityImages" src="images/12.jpg"></a>
+                        </div>
+                        <div class="col-md-5 col-sm-6 col-6 rightText">
+                            <div class="caption">
+                                <p>activity name</p>
+                            </div>
+                            <div  class=" clearfix">
+                                <div class="rate float-left">
+                                <span ><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                                <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                                <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                                <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                                <span><i class="fas fa-star-half-alt" style="color: #ffcf16"></i></span>
+                            </div>
+                                <div class="float-right organizer ">
+                                    <p><strong>active organizer</strong></p>
+                                </div>
+                            </div>
+                            <div class="details">
+                                <div >Riyadh</div>
+                                <div >3-10-2019</div>
+                                <div class="clearfix">
+                                    <div class="float-left" style="color: red">3 days left</div>&nbsp;
+                                    <div class="float-right"><strong>250 RS</strong></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+<hr style="color: #d0cfde">
+                    <div class=" row items">
+                        <div class="col-md-7 col-sm-6 col-6">
+                                <a href="slideShowActivity.html"> <img class="img-fluid  activityImages" src="images/11.jpg"></a>
+                        </div>
+                        <div class="col-md-5 col-sm-6 col-6 rightText">
+                            <div class="caption">
+                                <p>activity name</p>
+                            </div>
+                            <div  class=" clearfix">
+                                <div class="rate float-left">
+                                <span ><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                                <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                                <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                                <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                                <span><i class="fas fa-star-half-alt" style="color: #ffcf16"></i></span>
+                            </div>
+                                <div class=" float-right organizer">
+                                    <p><strong>active organizer</strong></p>
+                                </div>
+                            </div>
+                            <div class="details">
+                                <div >Riyadh</div>
+                                <div >3-10-2019</div>
+                                <div class="clearfix">
+                                    <div class="float-left" style="color: red">3 days left</div>&nbsp;
+                                    <div class="float-right"><strong>250 RS</strong></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    <hr style="color: #d0cfde">
+                    <!--third item in vertical slider-->
+                    <div class=" row items">
+                        <div class="col-md-7 col-sm-6 col-6">
+                      <a href="slideShowActivity.html"><img class="img-fluid  activityImages" src="images/13.jpg"></a>
+
+                        </div>
+                        <div class="col-md-5 col-sm-6 col-6 rightText">
+                            <div class="caption">
+                                <p>activity name</p>
+                            </div>
+                            <div  class=" clearfix">
+                                <div class="rate float-left">
+                                <span ><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                                <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                                <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                                <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                                <span><i class="fas fa-star-half-alt" style="color: #ffcf16"></i></span>
+                            </div>
+                                <div class="float-right organizer ">
+                                    <p><strong>active organizer</strong></p>
+                                </div>
+                            </div>
+                            <div class="details">
+                                <div >Riyadh</div>
+                                <div >3-10-2019</div>
+                                <div class="clearfix">
+                                    <div class="float-left" style="color: red">3 days left</div>&nbsp;
+                                    <div class="float-right"><strong>250 RS</strong></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    <hr style="color: #d0cfde">
+                    <!--///////////////////////////////////////////////////-->
+                    <div class=" row items">
+                        <div class="col-md-7 col-sm-6 col-6">
+                                <a href="slideShowActivity.html"><img class="img-fluid  activityImages" src="images/13.jpg"></a>
+
+                        </div>
+                        <div class="col-md-5 col-sm-6 col-6 rightText">
+                            <div class="caption">
+                                <p>activity name</p>
+                            </div>
+                            <div  class=" clearfix">
+                                <div class="rate float-left">
+                                <span ><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                                <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                                <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                                <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                                <span><i class="fas fa-star-half-alt" style="color: #ffcf16"></i></span>
+                            </div>
+                                <div class="float-right organizer ">
+                                    <p><strong>active organizer</strong></p>
+                                </div>
+                            </div>
+                            <div class="details">
+                                <div >Riyadh</div>
+                                <div >3-10-2019</div>
+                                <div class="clearfix">
+                                    <div class="float-left" style="color: red">3 days left</div>&nbsp;
+                                    <div class="float-right"><strong>250 RS</strong></div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <!--//////////////////////////////////////////////////////////////////////////////////-->
+    <hr style="color: #d0cfde">
+                <div class=" row items">
+                    <div class="col-md-7 col-sm-6 col-6">
+                    <a href="slideShowActivity.html"><img class="img-fluid  activityImages" src="images/14.jpg"></a>
+
+                    </div>
+                    <div class="col-md-5 col-sm-6 col-6 rightText">
+                        <div class="caption">
+                            <p>activity name</p>
+                        </div>
+                        <div  class=" clearfix">
+                            <div class="rate float-left">
+                            <span ><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                            <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                            <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                            <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                            <span><i class="fas fa-star-half-alt" style="color: #ffcf16"></i></span>
+                        </div>
+                            <div class="float-right organizer ">
+                                <p><strong>active organizer</strong></p>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <div >Riyadh</div>
+                            <div >3-10-2019</div>
+                            <div class="clearfix">
+                                <div class="float-left" style="color: red">3 days left</div>&nbsp;
+                                <div class="float-right"><strong>250 RS</strong></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <!--//////////////////////////////////////////////////////////////////////////-->
+    <hr style="color: #d0cfde">
+                <div class=" row items">
+                    <div class="col-md-7 col-sm-6 col-6">
+                    <a href="slideShowActivity.html"><img class="img-fluid activityImages" src="images/15.jpg"></a>
+
+                    </div>
+                    <div class="col-md-5 col-sm-6 col-6 rightText">
+                        <div class="caption">
+                            <p>activity name</p>
+                        </div>
+                        <div  class=" clearfix">
+                            <div class="rate float-left">
+                            <span ><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                            <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                            <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                            <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                            <span><i class="fas fa-star-half-alt" style="color: #ffcf16"></i></span>
+                        </div>
+                            <div class="float-right  organizer ">
+                                <p><strong>active organizer</strong></p>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <div >Riyadh</div>
+                            <div >3-10-2019</div>
+                            <div class="clearfix">
+                                <div class="float-left" style="color: red">3 days left</div>&nbsp;
+                                <div class="float-right"><strong>250 RS</strong></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+               <!--////////////////////////////////////////////////////////////////////////////////////-->
+    <hr style="color: #d0cfde">
+                <div class=" row items">
+                    <div class="col-md-7 col-sm-6 col-6">
+                 <a href="slideShowActivity.html"> <img class="img-fluid  activityImages" src="images/clark-young-403377-unsplash.jpg"></a>
+
+                    </div>
+                    <div class="col-md-5 col-sm-6 col-6 rightText">
+                        <div class="caption">
+                            <p>activity name</p>
+                        </div>
+                        <div  class=" clearfix">
+                            <div class="rate float-left">
+                            <span ><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                            <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                            <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                            <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                            <span><i class="fas fa-star-half-alt" style="color: #ffcf16"></i></span>
+                        </div>
+                            <div class="float-right organizer ">
+                                <p><strong>active organizer</strong></p>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <div >Riyadh</div>
+                            <div >3-10-2019</div>
+                            <div class="clearfix">
+                                <div class="float-left" style="color: red">3 days left</div>&nbsp;
+                                <div class="float-right"><strong>250 RS</strong></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    <hr style="color: #d0cfde">
+                <!--////////////////////////////////////////////////////////////////-->
+
+                <div class=" row items">
+                    <div class="col-md-7 col-sm-6 col-6">
+                    <a href="slideShowActivity.html"><img class="img-fluid activityImages" src="images/marvin-meyer-111904-unsplash (1).jpg"></a>
+
+                    </div>
+                    <div class="col-md-5 col-sm-6 col-6 rightText">
+                        <div class="caption">
+                            <p>activity name</p>
+                        </div>
+                        <div  class=" clearfix">
+                            <div class="rate float-left">
+                            <span ><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                            <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                            <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                            <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                            <span><i class="fas fa-star-half-alt" style="color: #ffcf16"></i></span>
+                        </div>
+                            <div class="float-right organizer ">
+                                <p><strong>active organizer</strong></p>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <div >Riyadh</div>
+                            <div >3-10-2019</div>
+                            <div class="clearfix">
+                                <div class="float-left" style="color: red">3 days left</div>&nbsp;
+                                <div class="float-right"><strong>250 RS</strong></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+               <!--/////////////////////////////////////////////////////////////////////-->
+    <hr style="color: #d0cfde">
+                <div class=" row items">
+                    <div class="col-md-7 col-sm-6 col-6">
+                 <a href="slideShowActivity.html"><img class="img-fluid activityImages" src="images/roberto-gerco-585372-unsplash.jpg"></a>
+
+                    </div>
+                    <div class="col-md-5 col-sm-6 col-6 rightText">
+                        <div class="caption">
+                            <p>activity name</p>
+                        </div>
+                        <div  class=" clearfix">
+                            <div class="rate float-left">
+                            <span ><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                            <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                            <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                            <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                            <span><i class="fas fa-star-half-alt" style="color: #ffcf16"></i></span>
+                        </div>
+                            <div class="float-right organizer ">
+                                <p><strong>active organizer</strong></p>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <div >Riyadh</div>
+                            <div >3-10-2019</div>
+                            <div class="clearfix">
+                                <div class="float-left" style="color: red">3 days left</div>&nbsp;
+                                <div class="float-right"><strong>250 RS</strong></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--/////////////////////////////////////////////////////////////////////-->
+    <hr style="color: #d0cfde">
+                <div class=" row items">
+                    <div class="col-md-7 col-sm-6 col-6">
+                    <a href="slideShowActivity.html"><img class="img-fluid activityImages" src="images/matej-vittek-106971-unsplash.jpg"></a>
+
+                    </div>
+                    <div class="col-md-5 col-sm-6 col-6 rightText">
+                        <div class="caption">
+                            <p>activity name</p>
+                        </div>
+                        <div  class=" clearfix">
+                            <div class="rate float-left">
+                            <span ><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                            <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                            <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                            <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                            <span><i class="fas fa-star-half-alt" style="color: #ffcf16"></i></span>
+                        </div>
+                            <div class="float-right  organizer ">
+                                <p><strong>active organizer</strong></p>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <div >Riyadh</div>
+                            <div >3-10-2019</div>
+                            <div class="clearfix">
+                                <div class="float-left" style="color: red">3 days left</div>&nbsp;
+                                <div class="float-right"><strong>250 RS</strong></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                    <!--end items of slider-->
+
+
+</div>
+
+
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

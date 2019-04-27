@@ -1,0 +1,748 @@
+
+html{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   background-color: #ebebec;;
+    width:100%;
+    height:100%;
+}
+
+
+#scrollable-content {
+    height: 450px;
+   
+   
+    overflow: auto;
+    width: 100%;
+  }
+
+  .scrollBackground{
+    background-color: white;
+    border-radius: 10px;
+    height: 460px;
+  }
+
+  #scrollable-content .imageCheck {
+    width: 200px;
+    height: 185px;
+    border-radius: 15px;
+    /* margin: 20px; */
+}
+
+.form-check-inline .activityInfoCheck {
+    position: relative;
+    left: 212px;
+    bottom: 64px;
+    width: 20px;
+    height: 18px;
+    border-radius: 50%;
+}
+#name{
+    width: 1086px;
+    height: 68px;
+    margin-bottom: 44px;
+    font-size: 27px;
+    border: 1px solid #f0f3f5;
+    border-radius: 11px;
+}
+
+.form-group .form-control::placeholder{
+    font-size: 20px;
+    color:gray;
+}
+
+.gallaryCheck .activityInfoHeader{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 42px;
+}
+.gallaryCheck{
+    margin-top: 35px;
+}
+
+.firstbadge{
+    position: relative;
+    padding: 19px 24px;
+    right: 24px;
+    top: 33px;
+        border-radius: 50%;
+        background: white;
+        color: #1d91b1;
+}
+
+.secondbadge{
+       position: relative;
+       padding: 19px 24px;
+       right: 32px;
+       top: 33px;
+       border-radius: 50%;
+       background: white;
+       color: #1d91b1;
+}
+.btn{
+    width: 100%;
+    font-size: 21px;
+}
+
+.uploadText p{
+    font-size: 23px;
+    color: gray;
+    margin-left: 24px;
+}
+
+
+/* //////media query ///////////////////// */
+@media screen and (min-width:320px) and (max-width:360px){
+    #name {
+        width: 95%;
+        margin-left: 7px;
+        height: 58px;
+        margin-bottom: 25px;
+        font-size: 27px;
+        border: 1px solid #f0f3f5;
+        border-radius: 11px;
+}
+.gallaryCheck .activityInfoHeader {
+    font-size: 17px;
+    margin-left: 13px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#scrollable-content .imageCheck {
+    width: 74px;
+    height: 85px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+.form-check-inline .activityInfoCheck {
+    position: relative;
+    left: 80px;
+    bottom: 33px;
+    width: 20px;
+    height: 13px;
+    border-radius: 50%;
+}
+.form-check-inline .activityInfoCheck {
+    margin-top: 0;
+    margin-right: 0.4125rem;
+    margin-left: -18px;
+}
+#scrollable-content {
+    height: 206px;
+    padding: 10px;
+    overflow: auto;
+    width: 100%;
+}
+.scrollBackground {
+    background-color: white;
+    border-radius: 10px;
+    height: 214px;
+}
+.btn {
+    width: 89%;
+    font-size: 11.9px;
+}
+.firstbadge {
+    position: relative;
+    padding: 8px 14px;
+    right: 13px;
+    top: 27px;
+}
+.secondbadge {
+    position: relative;
+    padding: 8px 14px;
+    right: 15px;
+    top: 27px;
+}
+.uploadText p {
+    font-size: 14px;
+    color: gray;
+    margin-left: 24px;
+}
+
+.chooseCountry{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+#sel1{
+    width: 125px;
+    height: 46px;
+    font-size: 18px;
+    color: #0de9d7;
+    border: 1px solid whitesmoke;
+}
+
+#sel2{
+    width: 125px;
+    height: 46px;
+    font-size: 18px;
+    color: #0de9d7;
+    border: 1px solid whitesmoke;
+}
+
+
+}
+
+/* //////////////////////////////////////////////////////////////// */
+@media screen and (min-width:361px) and (max-width:375px){
+    #name {
+        width: 95%;
+        margin-left: 7px;
+        height: 58px;
+        margin-bottom: 25px;
+        font-size: 27px;
+        border: 1px solid #f0f3f5;
+        border-radius: 11px;
+}
+.gallaryCheck .activityInfoHeader {
+    font-size: 19px;
+    margin-left: 13px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#scrollable-content .imageCheck {
+    width: 78px;
+    height: 88px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+.form-check-inline .activityInfoCheck {
+    position: relative;
+    left: 80px;
+    bottom: 33px;
+    width: 20px;
+    height: 13px;
+    border-radius: 50%;
+}
+.form-check-inline .activityInfoCheck {
+    margin-top: 0;
+    margin-right: 0.4125rem;
+    margin-left: -18px;
+}
+#scrollable-content {
+    height: 206px;
+    padding: 10px;
+    overflow: auto;
+    width: 100%;
+}
+.scrollBackground {
+    background-color: white;
+    border-radius: 10px;
+    height: 214px;
+}
+.btn {
+    width: 92%;
+    font-size: 12.5px;
+}
+.firstbadge {
+    position: relative;
+    padding: 10px 14px;
+    right: 13px;
+    top: 27px;
+}
+.secondbadge {
+    position: relative;
+    padding: 10px 14px;
+    right: 15px;
+    top: 27px;
+}
+.uploadText p {
+    font-size: 14px;
+    color: gray;
+    margin-left: 24px;
+}
+
+.chooseCountry{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+#sel1{
+    width: 125px;
+    height: 46px;
+    font-size: 18px;
+    color: #0de9d7;
+    border: 1px solid whitesmoke;
+}
+
+#sel2{
+    width: 125px;
+    height: 46px;
+    font-size: 18px;
+    color: #0de9d7;
+    border: 1px solid whitesmoke;
+}    
+}
+
+
+/* //////////////////////////////////////////////////////////////// */
+@media screen and (min-width:376px) and (max-width:414px){
+    #name {
+    width: 100%;
+    margin-left: 14px;
+    height: 58px;
+    margin-bottom: 25px;
+    font-size: 27px;
+    border: 1px solid #f0f3f5;
+    border-radius: 11px;
+}
+.gallaryCheck .activityInfoHeader {
+    font-size: 20px;
+    margin-left: 13px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#scrollable-content .imageCheck {
+    width: 86px;
+    height: 99px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+.form-check-inline .activityInfoCheck {
+    position: relative;
+    left: 86px;
+    bottom: 35px;
+    width: 20px;
+    height: 15px;
+    border-radius: 50%;
+}
+.form-check-inline .activityInfoCheck {
+    margin-top: 0;
+    margin-right: 0.4125rem;
+    margin-left: -18px;
+}
+#scrollable-content {
+    height: 236px;
+    padding: 10px;
+    overflow: auto;
+    width: 100%;
+}
+.scrollBackground {
+    background-color: white;
+    border-radius: 10px;
+    height: 242px;
+}
+.btn {
+    width: 91%;
+    font-size: 13.9px;
+}
+.firstbadge {
+    position: relative;
+    padding: 11px 14px;
+    right: 13px;
+    top: 27px;
+}
+.secondbadge {
+    position: relative;
+    padding: 11px 14px;
+    right: 15px;
+    top: 27px;
+}
+.uploadText p {
+    font-size: 15px;
+    color: gray;
+    margin-left: 24px;
+}
+
+.chooseCountry{
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+#sel1{
+    width: 153px;
+    height: 46px;
+    font-size: 18px;
+    color: #0de2e9;
+    border: 1px solid whitesmoke;
+}
+
+#sel2{
+    width: 160px;
+    height: 46px;
+    font-size: 18px;
+    color: #0de2e9;
+    border: 1px solid whitesmoke;
+}
+
+}
+
+
+/* ///////////////media for screen 320 px////////////// */
+@media (max-width:320px){
+    #name {
+        width: 95%;
+        margin-left: 4px;
+        height: 58px;
+        margin-bottom: 25px;
+        font-size: 24px;
+        border: 1px solid #f0f3f5;
+        border-radius: 11px;
+}
+.gallaryCheck .activityInfoHeader {
+    font-size: 16px;
+    margin-left: 13px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#scrollable-content .imageCheck {
+    width: 64px;
+    height: 80px;
+    margin-bottom: 11px;
+    border-radius: 15px;
+}
+.form-check-inline .activityInfoCheck {
+    position: relative;
+    left: 68px;
+    bottom: 33px;
+    width: 20px;
+    height: 13px;
+    border-radius: 50%;
+}
+.form-check-inline .activityInfoCheck {
+    margin-top: 0;
+    margin-right: 0.4125rem;
+    margin-left: -18px;
+}
+#scrollable-content {
+    height: 191px;
+    padding: 10px;
+    overflow: auto;
+    width: 100%;
+}
+.scrollBackground {
+    background-color: white;
+    border-radius: 10px;
+    height: 197px;
+}
+.btn {
+    width: 88%;
+    font-size: 9.1px;
+}
+.firstbadge {
+    position: relative;
+    padding: 8px 14px;
+    right: 13px;
+    top: 27px;
+}
+.secondbadge {
+    position: relative;
+    padding: 8px 14px;
+    right: 15px;
+    top: 27px;
+}
+.uploadText p {
+    font-size: 12px;
+    color: gray;
+    margin-left: 24px;
+}
+
+.chooseCountry{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 4px;
+}
+#sel1{
+    width: 121px;
+    height: 40px;
+    font-size: 16px;
+    color: #10e6ca;
+    border: 1px solid whitesmoke;
+}
+
+#sel2{
+    width: 121px;
+    height: 40px;
+    font-size: 16px;
+    color: #10e6ca;
+    border: 1px solid whitesmoke;
+}
+}
+/* /////////////////////////////////////////////////////////////////// */
+@media screen and (min-width:415px) and (max-width:768px){
+    #name {
+        width: 100%;
+        margin-left: 14px;
+        height: 62px;
+        padding-bottom: 22px;
+        margin-bottom: 50px;
+        font-size: 54px;
+        border: 1px solid #f0f3f5;
+        border-radius: 11px;
+    }
+    .gallaryCheck .activityInfoHeader {
+        font-size: 27px;
+        margin-left: 13px;
+        font-weight: bold;
+        margin-bottom: 29px;
+    }
+    #scrollable-content .imageCheck {
+        width: 157px;
+        height: 150px;
+        margin-left: 6px;
+        margin-bottom: 15px;
+        border-radius: 15px;
+    }
+    .form-check-inline .activityInfoCheck {
+        position: relative;
+        left: 152px;
+        bottom: 50px;
+        width: 20px;
+        height: 22px;
+        border-radius: 50%;
+      }
+    .form-check-inline .activityInfoCheck{
+        margin-top: 0;
+        margin-right: 0.4125rem;
+        margin-left: -18px;
+    }
+    #scrollable-content {
+        height: 340px;
+        padding: 10px;
+        overflow: auto;
+        width: 100%;
+    }
+    .scrollBackground {
+        background-color: white;
+        border-radius: 10px;
+        height: 344px;
+    }
+    .btn {
+        width: 100%;
+        font-size: 25.9px;
+    }
+    .firstbadge {
+        position: relative;
+        padding: 23px 28px;
+        right: 27px;
+        top: 34px;
+    }
+    .secondbadge {
+        position: relative;
+        padding: 23px 28px;
+        right: 27px;
+        top: 34px;
+    }
+    .uploadText p {
+        font-size: 25px;
+        color: gray;
+        margin-left: 45px;
+    }
+    
+    .chooseCountry{
+        font-size: 27px;
+    font-weight: bold;
+    margin-left: 8px;
+    }
+    #sel1{
+        width: 208px;
+        height: 60px;
+        font-size: 26px;
+        color: #0de2e9;
+        border: 1px solid whitesmoke;
+    }
+    
+    #sel2{
+        width: 208px;
+        height: 60px;
+        font-size: 26px;
+        color: #0de2e9;
+        border: 1px solid whitesmoke;
+    }
+    
+}
+
+
+/* /////////////////////////////////////////////////////////////////// */
+@media screen and (min-width:769px) and (max-width:1024px){
+
+    #name {
+        width: 100%;
+        margin-left: 14px;
+        height: 88px;
+        padding-bottom: 42px;
+        margin-bottom: 50px;
+        font-size: 79px;
+        border: 1px solid #f0f3f5;
+        border-radius: 11px;
+    }
+    .gallaryCheck .activityInfoHeader {
+        font-size: 35px;
+        margin-left: 13px;
+        font-weight: bold;
+        margin-bottom: 52px;
+    }
+    #scrollable-content .imageCheck {
+        width: 211px;
+        height: 210px;
+        margin-top: 10px;
+        margin-left: 11px;
+        margin-bottom: 15px;
+        border-radius: 15px;
+    }
+    .form-check-inline .activityInfoCheck {
+        position: relative;
+       left: 197px;
+       bottom: 69px;
+       width: 20px;
+       height: 31px;
+       border-radius: 50%;
+       }
+    .form-check-inline .activityInfoCheck {
+        margin-top: 0;
+        margin-right: 0.4125rem;
+        margin-left: -18px;
+    }
+    #scrollable-content {
+        height: 460px;
+        padding: 10px;
+        overflow: auto;
+        width: 100%;
+    }
+    .scrollBackground {
+        background-color: white;
+        border-radius: 10px;
+        height: 482px;
+    }
+    .btn {
+        width: 100%;
+        font-size: 35.9px;
+    }
+    .firstbadge {
+    position: relative;
+    padding: 28px 34px;
+    right: 31px;
+    top: 61px;
+    border-radius: 50%;
+    background: white;
+    color: #1d91b1;
+    font-size: 35px;
+    }
+    .secondbadge {
+        position: relative;
+        padding: 28px 34px;
+        right: 31px;
+        top: 61px;
+        border-radius: 50%;
+        background: white;
+        color: #1d91b1;
+        font-size: 35px;
+    }
+    .uploadText p {
+        font-size: 30px;
+        color: gray;
+        margin-left: 45px;
+    }
+    
+    .chooseCountry{
+        font-size: 35px;
+    font-weight: bold;
+    margin-left: 8px;
+    }
+    #sel1{
+        width: 255px;
+    height: 77px;
+    font-size: 35px;
+    margin-bottom: 34px;
+    color: #0de2e9;
+    border: 1px solid whitesmoke;
+    }
+    
+    #sel2{
+        width: 255px;
+        height: 77px;
+        font-size: 35px;
+        margin-bottom: 34px;
+        color: #0de2e9;
+        border: 1px solid whitesmoke;
+    }
+       
+}
+
+
+
+/* /////////////////////////////////////////////////////////////////// */
+@media screen and (min-width:1025px){
+    #scrollable-content .imageCheck {
+        width: 247px;
+        height: 221px;
+        margin-left: 5px;
+        margin-top: 30px;
+    }
+
+    #scrollable-content {
+        height: 527px;
+        overflow: auto;
+        width: 100%;
+    }
+    .scrollBackground {
+        background-color: white;
+        border-radius: 16px;
+        height: 536px;
+    }
+    .gallaryCheck h3 {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 53px;
+    }
+    .btn {
+        width: 100%;
+        font-size: 38px;
+    }
+    .firstbadge {
+    position: relative;
+    padding: 28px 34px;
+    right: 31px;
+    top: 61px;
+    border-radius: 50%;
+    background: white;
+    color: #1d91b1;
+    font-size: 40px;
+    }
+
+    .secondbadge {
+    position: relative;
+    padding: 28px 34px;
+    right: 31px;
+    top: 61px;
+    border-radius: 50%;
+    background: white;
+    color: #1d91b1;
+    font-size: 40px;
+    }
+
+    #name ::placeholder{
+        font-size: 20px;
+    }
+    .chooseCountry{
+        font-size: 40px;
+        font-weight: bold;
+        margin-left: 5px;
+    }
+    .uploadText p {
+        font-size: 30px;
+        color: gray;
+        margin-left: 45px;
+    }
+    
+    #sel1{
+        width: 332px;
+    height: 77px;
+    font-size: 37px;
+    margin-bottom: 34px;
+    color: #0de2e9;
+    border: 1px solid whitesmoke;
+    }
+    
+    #sel2{
+        width: 332px;
+        height: 77px;
+        font-size: 37px;
+        margin-bottom: 34px;
+        color: #0de2e9;
+        border: 1px solid whitesmoke;
+    }
+}

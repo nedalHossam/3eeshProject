@@ -1,0 +1,472 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   background-color: #ebebec;;
+    width:100%;
+    height:100%;
+}
+/* //////media query ///////////////////// */
+@media screen and (min-width:321px) and (max-width:375px){
+    .menu {
+        width: 100%;
+        margin-left: 13px;
+    }
+
+    .paidHeader h3{
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-top: 29px;
+        margin-bottom: 20px;
+    }
+
+    .foodCheck{
+        width: 23%;
+        height: 37px;
+        background-color: white;
+        font-size: 16px;
+        padding-left: 16px;
+        padding-top: 5px;
+        margin-left: 4px;
+        margin-right: 5px;
+        border-radius: 79px;
+        font-weight: bold;
+        }
+
+        .lifeCheck{
+            width: 30%;
+            height: 37px;
+            background-color: white;
+            font-size: 16px;
+            padding-left: 11px;
+            padding-top: 5px;
+            margin-left: 6px;
+            border-radius: 50px;
+            font-weight: bold;
+        }
+
+        .photoCheck{
+            width: 37%;
+            height: 37px;
+            background-color: white;
+            font-size: 16px;
+            padding-left: 11px;
+            padding-top: 5px;
+            margin-left: 6px;
+            border-radius: 50px;
+           font-weight: bold;  
+        }
+
+        .paidService{
+        background-color: white;
+        width: 100%;
+        margin-left: 1px;
+        height: 45px;
+        font-size: 20px;
+        padding: 5px;
+        border-radius: 6px;
+        margin-bottom: 9px;
+        }
+
+        .paidService a{
+            color: #00BCD4;
+           margin-left: 135px;
+        }
+    
+        .paidPhotoPrice a{
+            margin-left: 108px; 
+        }
+
+    .form-control{
+        margin-left: 10px;
+        width: 95%;
+        height: 49px;
+        border: none;
+        border-radius: 8px;
+        margin-bottom: 12px;
+    }
+    .choosePaid{
+        font-size: 14px;
+        margin-left: 1px;
+    }
+    .footer {
+        margin-top: 49px;
+    }
+}
+
+/* //////////////////////////////////////////////////////////////// */
+@media screen and (min-width:376px) and (max-width:414px){
+
+    .menu {
+        width: 100%;
+        margin-left: 13px;
+    }
+
+    .paidHeader h3{
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-top: 29px;
+        margin-bottom: 20px;
+    }
+
+    .foodCheck{
+        width: 23%;
+        height: 37px;
+        background-color: white;
+        font-size: 16px;
+        padding-left: 16px;
+        padding-top: 5px;
+        margin-left: 4px;
+        margin-right: 5px;
+        border-radius: 79px;
+        font-weight: bold;
+        }
+
+        .lifeCheck{
+            width: 30%;
+            height: 37px;
+            background-color: white;
+            font-size: 16px;
+            padding-left: 11px;
+            padding-top: 5px;
+            margin-left: 6px;
+            border-radius: 50px;
+            font-weight: bold;
+        }
+
+        .photoCheck{
+            width: 37%;
+            height: 37px;
+            background-color: white;
+            font-size: 16px;
+            padding-left: 11px;
+            padding-top: 5px;
+            margin-left: 6px;
+            border-radius: 50px;
+           font-weight: bold;  
+        }
+
+        .paidService{
+        background-color: white;
+        width: 100%;
+        margin-left: 1px;
+        height: 45px;
+        font-size: 20px;
+        padding: 5px;
+        border-radius: 6px;
+        margin-bottom: 9px;
+        }
+
+        .paidService a{
+            color: #00BCD4;
+           margin-left: 135px;
+        }
+    
+        .paidPhotoPrice a{
+            margin-left: 108px; 
+        }
+
+    .form-control{
+        margin-left: 10px;
+        width: 95%;
+        height: 49px;
+        border: none;
+        border-radius: 8px;
+        margin-bottom: 12px;
+    }
+    .choosePaid{
+        font-size: 14px;
+        margin-left: 1px;
+    }
+    .footer {
+        margin-top: 49px;
+    }
+}
+
+/* ///////////////media for screen 320 px////////////// */
+@media (max-width:320px){
+    .menu {
+        width: 100%;
+        margin-left: 13px;
+    }
+
+    .paidHeader h3{
+        font-size: 16px;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-top: 29px;
+        margin-bottom: 20px;
+    }
+
+    .foodCheck{
+    width: 23%;
+    height: 33px;
+    background-color: white;
+    font-size: 15px;
+    padding-left: 12px;
+    padding-top: 5px;
+    margin-left: 4px;
+    margin-right: 5px;
+    border-radius: 79px;
+    font-weight: bold;
+        }
+
+        .lifeCheck{
+         width: 30%;
+         height: 33px;
+        background-color: white;
+        font-size: 15px;
+        padding-left: 7px;
+        padding-top: 5px;
+        margin-left: 6px;
+        border-radius: 50px;
+        font-weight: bold;
+        }
+
+        .photoCheck{
+            width: 38%;
+           height: 33px;
+           background-color: white;
+           font-size: 15px;
+           padding-left: 11px;
+           padding-top: 5px;
+           margin-left: 6px;
+           border-radius: 50px;
+           font-weight: bold;
+        }
+
+        .paidService{
+        background-color: white;
+        width: 100%;
+        margin-left: 1px;
+        height: 39px;
+        font-size: 18px;
+        padding: 5px;
+        border-radius: 6px;
+        margin-bottom: 9px;
+        }
+
+        .paidService a{
+            color: #00BCD4;
+            margin-left: 110px;
+        }
+    
+        .paidPhotoPrice a{
+            margin-left: 86px;
+        }
+
+    .form-control{
+        margin-left: 10px;
+        width: 95%;
+        height: 45px;
+        border: none;
+        border-radius: 8px;
+        margin-bottom: 12px;
+    }
+    .choosePaid{
+        font-size: 14px;
+        margin-left: 1px;
+    }
+    .footer {
+        margin-top: 49px;
+    }
+}
+
+/* /////////////////////////////////////////////////////////////////// */
+@media screen and (min-width:415px) and (max-width:768px){
+    .menu {
+        width: 100%;
+        margin-left: 13px;
+    }
+
+    .paidHeader h3{
+        font-size: 27px;
+       font-weight: bold;
+       margin-left: 10px;
+       margin-top: 36px;
+       margin-bottom: 25px;
+    }
+
+    .foodCheck{
+        width: 23%;
+        height: 46px;
+       background-color: white;
+       font-size: 27px;
+        padding-left: 16px;
+        padding-top: 5px;
+        margin-left: 4px;
+        margin-right: 5px;
+        border-radius: 79px;
+        font-weight: bold;
+        }
+
+        .lifeCheck{
+            width: 30%;
+            height: 46px;
+            background-color: white;
+            font-size: 27px;
+            padding-left: 11px;
+            padding-top: 5px;
+            margin-left: 6px;
+            border-radius: 50px;
+            font-weight: bold;
+        }
+
+        .photoCheck{
+            width: 37%;
+            height: 46px;
+            background-color: white;
+            font-size: 27px;
+            padding-left: 11px;
+            padding-top: 5px;
+            margin-left: 6px;
+            border-radius: 50px;
+           font-weight: bold;  
+        }
+
+        .paidService{
+            background-color: white;
+            width: 100%;
+            margin-left: 1px;
+            height: 64px;
+            font-size: 25px;
+            padding: 5px;
+            border-radius: 6px;
+            margin-bottom: 9px;
+        }
+
+        .paidService a{
+            color: #00BCD4;
+            margin-left: 412px;
+        }
+    
+        .paidPhotoPrice a{
+            margin-left: 375px;
+        }
+
+    .form-control{
+        margin-left: 10px;
+        width: 95%;
+        height: 73px;
+        font-size: 30px;
+        padding-left: 33px;
+        border-radius: 8px;
+        margin-bottom: 12px;
+    }
+    .choosePaid{
+        font-size: 23px;
+        margin-left: 4px;
+    }
+    .footer {
+        margin-top: 96px;
+    }
+
+    .paidCheck{
+        width: 40px;
+        height: 27px;
+        position: relative;
+        top: 5px;
+    }
+}
+
+
+/* /////////////////////////////////////////////////////////////////// */
+@media screen and (min-width:769px) {
+
+    .menu {
+        width: 100%;
+        margin-left: 13px;
+    }
+
+    .paidHeader h3{
+        font-size: 32px;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-top: 63px;
+        margin-bottom: 35px;
+    }
+
+    .foodCheck{
+        width: 23%;
+        height: 60px;
+        background-color: white;
+        font-size: 32px;
+        padding-left: 16px;
+        padding-top: 5px;
+        margin-left: 4px;
+        margin-right: 5px;
+        border-radius: 79px;
+        font-weight: bold;
+        }
+
+        .lifeCheck{
+            width: 30%;
+            height: 60px;
+            background-color: white;
+            font-size: 32px;
+            padding-left: 11px;
+            padding-top: 5px;
+            margin-left: 6px;
+            border-radius: 50px;
+            font-weight: bold;
+        }
+
+        .photoCheck{
+            width: 37%;
+            height: 60px;
+            background-color: white;
+            font-size: 32px;
+            padding-left: 11px;
+            padding-top: 5px;
+            margin-left: 6px;
+            border-radius: 50px;
+           font-weight: bold;  
+        }
+
+        .paidService{
+          background-color: white;
+          width: 100%;
+          margin-left: 1px;
+          height: 87px;
+          font-size: 31px;
+          padding: 20px;
+          border-radius: 6px;
+          margin-bottom: 9px;
+        }
+
+        .paidService a{
+            color: #00BCD4;
+            margin-left: 570px;
+        }
+    
+        .paidPhotoPrice a{
+            margin-left: 526px;
+        }
+
+    .form-control{
+        margin-left: 10px;
+        width: 95%;
+        height: 104px;
+       font-size: 34px;
+       padding-left: 33px;
+       border-radius: 12px;
+       margin-bottom: 16px;
+    }
+    .choosePaid{
+        font-size: 30px;
+        margin-left: 4px;
+    }
+    .footer {
+        margin-top: 104px;
+    }
+
+    .paidCheck{
+        width: 40px;
+        height: 27px;
+        position: relative;
+        top: 5px;
+    }
+}

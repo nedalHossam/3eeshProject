@@ -1,0 +1,1165 @@
+@import url("indexStyle.css");
+@import url("GallaryImageVerticalSliderStyle.css");
+body, html {
+	font-family: 'Lato', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	margin: 0;
+    padding: 0;
+  
+}
+.divContainer{
+    padding: 17px 42px 0px 9px;
+    background-color: #21cebe;
+}
+
+.divContainer p{
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 12px;
+}
+
+.divContainer .backBtn a{
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    position: relative;
+    top: 14px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 2px;
+}
+
+#expandedImg{
+    height: 270px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-right: 0px; 
+    padding-left: 0px; 
+    margin-right: auto;
+    margin-left: auto
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 0px; 
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+    position: absolute;
+    top: 0px;
+    right: 8px;
+    color: white;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+/* ///////////////////////////////////////////////////////// */
+
+.textContent{
+    line-height: 3;
+    margin-top: 25px;
+}
+
+.shareImage{
+    margin-top: 12px;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+   
+    border: 1px solid #d8d2d2;
+}
+
+.row {
+
+    margin-right: 0px;
+  margin-left: 0px
+}
+
+.container {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+     margin-right: auto;
+    margin-left: auto; 
+     position: relative;
+    
+}
+
+.fixedPosition{
+    position: fixed;
+    width: 100%;
+    border-top:1px solid gray;
+    bottom: 0px;
+    background-color: #ecebeb;
+}
+
+#myModal .modal-content{
+    background-color: #181827;
+}
+
+#myModal .modal-header {
+    
+     border-bottom: 0px solid black; 
+}
+
+#myModal .modal-footer {
+    
+    border-top:0px solid black; 
+}
+
+.modal {
+    top: 60px;
+    left: 0;
+    line-height: 2;
+    color:rgb(165, 161, 161);
+}
+
+#modalImage1{
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 8px;
+    margin-right: 20px;
+}
+
+#modalImage1 a{
+    color: #524646;
+    text-decoration: none;
+}
+#modalImage1 a:hover{
+    color: rgb(4, 165, 165);
+}
+
+
+
+#modalImage2 a:hover{
+    color: rgb(4, 165, 165);
+}
+
+#modalImage1:hover{
+    border: 2px solid aqua;
+}
+
+#modalImage2:hover{
+    border: 2px solid aqua;
+}
+#modalImage2 a{
+    color: #524646;
+    text-decoration: none;
+}
+#modalImage2{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.firstSection , .thirdSection ,.fourthSection , .lastSection{
+    margin-left: 15px;
+    margin-right: 37px;
+}
+
+/* //////media query ///////////////////// */
+@media screen and (min-width:321px) and (max-width:360px){
+    .divContainer {
+        height: 162px;
+        padding: 102px 42px 0px 9px;
+    }
+    .textContent {
+        line-height: 2;
+        margin-top: 16px;
+    }
+    #hideSection{
+        margin-top: 54px;
+    }
+    #hideSection h4{
+        margin-bottom: 1.5rem;
+    }
+    #hideSection .secondSection{
+        margin-top: 17px;
+    padding-top: 46px;
+    font-size: 14px;
+    border-top: 4px solid gainsboro;
+    margin-bottom: 31px;
+    } 
+    .thirdSection {
+        border-bottom: 5px solid #ccc8c8;
+        border-top: 5px solid gainsboro;
+        margin-top: 32px;
+        padding-top: 23px;
+    }
+
+    .thirdSection p{
+        font-size: 10px;
+    margin-right: 17px;
+    }
+
+.mapFrame iframe{
+    width: 100%;
+}
+
+.mapFrame{
+    margin-top: 10px;
+    margin-bottom: 32px;
+    border-bottom: 5px solid gainsboro;
+}
+
+.lastSection{
+    margin-top: 58px;
+    border-top: 5px solid gainsboro;
+    padding-top: 26px;
+}
+}
+/* //////media query ///////////////////// */
+@media screen and (min-width:361px) and (max-width:375px){
+    .divContainer {
+        height: 172px;
+        padding: 111px 42px 0px 9px;
+    }
+    #expandedImg {
+        height: 227px;
+    }
+    .textContent {
+        line-height: 2.5;
+        margin-top: 25px;
+    }
+    #hideSection{
+        margin-top: 54px;
+    }
+    #hideSection .secondSection{
+        margin-top: 17px;
+    padding-top: 46px;
+    font-size: 14px;
+    border-top: 4px solid gainsboro;
+    margin-bottom: 31px;
+    } 
+
+    .thirdSection {
+        border-bottom: 5px solid #ccc8c8;
+        border-top: 5px solid gainsboro;
+        margin-top: 32px;
+        padding-top: 23px;
+    }
+
+    .thirdSection p{
+        font-size: 12px;
+    margin-right: 17px;
+    }
+    #hideSection h4{
+        margin-bottom: 1.5rem;
+    }
+    .mapFrame iframe{
+        width: 100%;
+    }
+    
+    .mapFrame{
+        margin-top: 10px;
+        margin-bottom: 32px;
+        border-bottom: 5px solid gainsboro;
+    }
+    .lastSection{
+        margin-top: 58px;
+        border-top: 5px solid gainsboro;
+        padding-top: 26px;
+    }
+}
+
+/* //////media query ///////////////////// */
+@media screen and (width:375px) and (height:812px){
+    #expandedImg {
+        height: 312px;
+    }
+    .textContent {
+        line-height: 3;
+        margin-top: 25px;
+        font-size: 17px;
+    }
+    #hideSection{
+        margin-top: 54px;
+    }
+    #hideSection .secondSection{
+        margin-top: 15px;
+        padding-top: 46px;
+        font-size: 16px;
+        border-top: 4px solid gainsboro;
+        margin-bottom: 41px;
+    } 
+
+    .thirdSection {
+        border-bottom: 5px solid #ccc8c8;
+        border-top: 5px solid gainsboro;
+        margin-top: 32px;
+        padding-top: 23px;
+    }
+
+    .thirdSection p{
+        font-size: 12px;
+    margin-right: 17px;
+    }
+    #hideSection h4{
+        margin-bottom: 1.5rem;
+    }
+
+    .mapFrame iframe{
+        width: 100%;
+    }
+    
+    .mapFrame{
+        margin-top: 10px;
+        margin-bottom: 32px;
+        border-bottom: 5px solid gainsboro;
+    }
+
+    .lastSection{
+        margin-top: 58px;
+        border-top: 5px solid gainsboro;
+        padding-top: 26px;
+    }
+}
+
+/* //////media query ///////////////////// */
+@media screen and (min-width:376px) and (max-width:414px){
+    .textContent {
+        line-height: 2.5;
+        margin-top: 23px;
+        font-size: 19px;
+    }
+.divContainer {
+    height: 176px;
+    padding: 102px 42px 0px 9px;
+}
+#expandedImg {
+    height: 245px;
+}
+#hideSection{
+    margin-top: 54px;
+}
+#hideSection .secondSection{
+    margin-top: 17px;
+    padding-top: 48px;
+    font-size: 16px;
+    border-top: 4px solid gainsboro;
+    margin-bottom: 31px;
+} 
+.thirdSection {
+    border-bottom: 5px solid #ccc8c8;
+    border-top: 5px solid gainsboro;
+    margin-top: 32px;
+    padding-top: 23px;
+}
+
+.thirdSection p{
+    font-size: 12px;
+margin-right: 17px;
+}
+
+#hideSection h4{
+    margin-bottom: 1.5rem;
+}
+
+.mapFrame iframe{
+    width: 100%;
+}
+
+.mapFrame{
+    margin-top: 10px;
+    margin-bottom: 32px;
+    border-bottom: 5px solid gainsboro;
+}
+
+.lastSection{
+    margin-top: 58px;
+    border-top: 5px solid gainsboro;
+    padding-top: 26px;
+}
+}
+/* //////media query ///////////////////// */
+@media only screen and (width:411px) and (height:823px){
+    .textContent {
+        line-height: 3;
+        margin-top: 28px;
+        font-size: 19px;
+    }
+    #expandedImg {
+        height: 285px;
+    }
+    #hideSection{
+        margin-top: 54px;
+    }
+    #hideSection .secondSection{
+        margin-top: 15px;
+        padding-top: 46px;
+        font-size: 16px;
+        border-top: 4px solid gainsboro;
+        margin-bottom: 41px;
+    }
+    .thirdSection {
+        border-bottom: 5px solid #ccc8c8;
+        border-top: 5px solid gainsboro;
+        margin-top: 32px;
+        padding-top: 23px;
+    }
+
+    .thirdSection p{
+        font-size: 12px;
+    margin-right: 17px;
+    }
+    #hideSection h4{
+        margin-bottom: 1.5rem;
+    } 
+    .mapFrame iframe{
+        width: 100%;
+    }
+    
+    .mapFrame{
+        margin-top: 10px;
+        margin-bottom: 32px;
+        border-bottom: 5px solid gainsboro;
+    }
+
+    .lastSection{
+        margin-top: 58px;
+        border-top: 5px solid gainsboro;
+        padding-top: 26px;
+    }
+}
+
+/* ///////////////media for screen 320 px////////////// */
+@media (max-width:320px){
+    .textContent {
+        line-height: 3;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .divContainer {
+        height: 166px;
+        padding: 110px 30px 5px 0px;
+        font-size: 16px;
+    }
+    #expandedImg {
+        height: 188px;
+    }
+    .textContent {
+        line-height: 2.5;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    #hideSection{
+        margin-top: 54px;
+    }
+    #hideSection .secondSection{
+     margin-top: 17px;
+    padding-top: 46px;
+    font-size: 14px;
+    border-top: 4px solid gainsboro;
+    margin-bottom: 31px;
+    }
+    .thirdSection {
+        border-bottom: 5px solid #ccc8c8;
+        border-top: 5px solid gainsboro;
+        margin-top: 32px;
+        padding-top: 23px;
+    }
+
+    .thirdSection p{
+        font-size: 12px;
+    margin-right: 17px;
+    }
+    #hideSection h4{
+        font-size: 19px;
+        margin-bottom: 1.5rem;
+    } 
+    .mapFrame iframe{
+        width: 100%;
+    }
+    
+    .mapFrame{
+        margin-top: 10px;
+        margin-bottom: 32px;
+        border-bottom: 5px solid gainsboro;
+    }
+
+    .lastSection{
+        margin-top: 58px;
+        border-top: 5px solid gainsboro;
+        padding-top: 26px;
+    }
+}
+
+/* /////////////////////////////////////////////////////////////////// */
+@media screen and (min-width:415px) and (max-width:768px){
+    .divContainer {
+        height: 201px;
+        padding: 115px 42px 0px 9px;
+    }
+    #expandedImg {
+        height: 329px;
+    }
+    .textContent {
+        line-height: 3;
+        margin-top: 25px;
+        font-size: 23px;
+    }
+    .divContainer .backBtn a {
+        font-size: 25px;
+        top: 17px;
+    }
+    .divContainer p {
+        font-size: 26px;
+        margin-top: 25px;
+    }
+    .shareImage {
+        margin-top: 22px;
+    }
+    #hideSection{
+        margin-top: 54px;
+    }
+    #hideSection .secondSection{
+            margin-top: 34px;
+            padding-top: 62px;
+            font-size: 23px;
+            border-top: 4px solid gainsboro;
+            margin-bottom: 31px;
+    } 
+    #hideSection h4{
+        font-size: 35px;
+        margin-bottom: 2.5rem;
+    }
+    #hideSection  a {
+        position: relative;
+        bottom: 29px;
+        color: #0dcaca;
+        font-size: 21px;
+    }
+    .thirdSection {
+        border-bottom: 5px solid #ccc8c8;
+        border-top: 5px solid gainsboro;
+        margin-top: 32px;
+        padding-top: 23px;
+    }
+
+    .thirdSection p{
+    margin-right: 17px;
+    }
+    
+    .thirdSection .paidIcon img {
+        width: 56px;
+        height: 85px;
+    }
+
+    .thirdSection .paidIcon3 img {
+        width: 66px;
+        height: 82px;
+    }
+    .thirdSection .paidIcon4 img {
+        width: 62px;
+        height: 82px;
+    }
+    .thirdSection p{
+        font-size: 20px;
+    }
+
+    .mapFrame iframe{
+        width: 100%;
+        height: 400px;
+    }
+    
+    .mapFrame{
+        margin-top: 10px;
+        margin-bottom: 32px;
+        border-bottom: 5px solid gainsboro;
+    }
+
+    .lastSection{
+        margin-top: 58px;
+        border-top: 5px solid gainsboro;
+        padding-top: 26px;
+    }
+}
+
+/* /////////////////////////////////////////////////////////////////// */
+@media screen and (min-width:769px) {
+    .divContainer {
+        height: 221px;
+        padding: 124px 42px 0px 9px;
+    }
+    #expandedImg {
+        height: 329px;
+    }
+    .textContent {
+        line-height: 3;
+        margin-top: 25px;
+        font-size: 35px;
+    }
+    .divContainer .backBtn a {
+        font-size: 31px;
+    }
+    .divContainer p {
+        font-size: 30px;
+    }
+    #expandedImg {
+        height: 411px;
+    }
+    .shareImage {
+        margin-top: 27px;
+        width: 45px;
+        height: 48px;
+    }
+    #hideSection{
+        margin-top: 100px;
+    }
+    #hideSection .secondSection{
+           margin-top: 28px;
+            padding-top: 62px;
+            font-size: 31px;
+            border-top: 4px solid gainsboro;
+            margin-bottom: 31px;
+    } 
+    #hideSection h4{
+        font-size: 40px;
+        margin-bottom: 2.5rem;
+    }
+    #hideSection a {
+        position: relative;
+        bottom: 29px;
+        color: #0dcaca;
+        font-size: 30px;
+        right: 28px;
+    }
+
+    .thirdSection {
+    border-bottom: 5px solid #ccc8c8;
+    border-top: 5px solid gainsboro;
+    margin-top: 48px;
+    padding-top: 29px;
+    margin-bottom: 30px;
+    }
+
+    .thirdSection p{
+        font-size: 29px;
+   
+    }
+        
+        .thirdSection .paidIcon img {
+            width: 56px;
+            height: 85px;
+        }
+    
+        .thirdSection .paidIcon3 img {
+            width: 66px;
+            height: 82px;
+        }
+        .thirdSection .paidIcon4 img {
+            width: 62px;
+            height: 82px;
+        }
+        
+        .mapFrame iframe{
+            width: 100%;
+           height: 500px;
+        }
+        
+        .mapFrame{
+            margin-top: 10px;
+            margin-bottom: 32px;
+            border-bottom: 5px solid gainsboro;
+        }
+        .lastSection{
+            margin-top: 58px;
+            border-top: 5px solid gainsboro;
+            padding-top: 26px;
+        }
+
+    }
+
+/* @media only screen  and (width: 411px) and (height:731px){
+.container {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    line-height: 3;
+}
+
+#downArrow1 {
+    left: 51px;
+    bottom: 21px;
+}
+#downArrow2 {
+    left: 61px;
+    bottom: 23px;
+}
+
+#expandedImg {
+    height: 329px;
+}
+
+.shareImage{
+    margin-top: 12px;
+}
+}
+
+/*/////////////media query for sceern width 360 and height 640///////////////*/
+@media only screen  and (width:360px) and (height:640px){
+    .fixedPosition{
+        width: 100%;
+        height: 65px;
+    }
+    #bookNow {
+        font-size: 1.3rem;
+        background-color: #0dcaca;
+        color: white;
+        width: 40%;
+        height: 65px;
+    }
+
+    #but1 {
+        font-size: 0.9rem;
+        width: 30%;
+        height: 65px;
+    }
+    #ticketType {
+        font-size: 0.9rem;
+        width:30%;
+        height: 65px;
+        border-right: 1px solid gray;
+    }
+
+    #downArrow2{
+        position: relative;
+       left: 10px;
+       bottom: 11px;
+    }
+
+}
+
+/*/////////////media query for sceern width 411 and height 731///////////////*/
+@media only screen  and (width: 411px) and (height:731px){
+   #modalImage1 img{
+  width: 155px
+   }
+   
+   #modalImage2 img{
+    width: 155px
+     }
+    #expandedImg {
+        height: 315px;
+    }
+
+    #modalImage1 {
+        margin-right: 37px;
+    }
+
+    .col-4{
+        font-size: 16px;
+    }
+
+    .col-6 div{
+        font-size: 15px;
+    }
+
+   .col-4, .col-5, .col-3 div{
+       font-size: 18px;
+   }
+   
+.fixedPosition{
+    width: 100%;
+    height: 65px;
+}
+#bookNow {
+    font-size: 1.3rem;
+    background-color: #0dcaca;
+    color: white;
+    width: 50%;
+    height: 65px;
+}
+
+#but1 {
+    font-size: 0.9rem;
+    width: 20%;
+    height: 65px;
+}
+#ticketType {
+    font-size: 0.9rem;
+    width:30%;
+    height: 65px;
+    border-right: 1px solid gray;
+}
+#downArrow2{
+    position: relative;
+    left: 32px;
+    bottom: 31px;
+}
+#downArrow1{
+position: relative;
+left: 11px;
+bottom: 1px;
+}
+.modal {
+    top: 119px;
+}
+}
+/*/////////////media query for sceern width 411 and height 823///////////////*/
+@media only screen  and (width: 411px) and (height:823px){
+   
+    #modalImage1 img{
+        width: 160px
+         }
+         
+         #modalImage2 img{
+          width: 160px
+           }
+          #expandedImg {
+              height: 315px;
+          }
+      
+          #modalImage1 {
+              margin-right: 30px;
+          }
+      
+            
+    #expandedImg {
+        height: 315px;
+    }
+
+    .modal-footer{
+        font-size: 20px;
+    }
+    .col-4{
+        font-size: 16px;
+    }
+
+    .col-6 div{
+        font-size: 15px;
+    }
+
+   .col-4, .col-5, .col-3 div{
+       font-size: 18px;
+   }
+   
+
+
+}
+
+/*/////////////media query for small sceern width 411 and height 823///////////////*/
+@media only screen  and (width: 320px) and (height:568px){
+    .textContent {
+        line-height: 2;
+        font-size: 13px;
+        margin-bottom: 60px;
+    }
+    #expandedImg {
+        height: 260px;
+    }
+    
+}
+
+/* ///////////////////////////////////////////////////////////// */
+
+/* @media only screen  and (width: 375px) and (height:667px){
+
+    #modalImage1 img{
+        width: 150px
+         }
+         
+         #modalImage2 img{
+          width: 150px
+           }
+          
+           .textContent {
+               margin-bottom: 30px;
+           }
+
+    
+    
+}
+/* ///////////////////////////////////////////////////////////// */
+/* @media only screen  and (width: 375px) and (height:812px){
+
+    #modalImage1 img{
+        width: 150px
+         }
+         
+         #modalImage2 img{
+          width: 150px
+           }
+          
+           .textContent {
+               margin-bottom: 30px;
+               font-size: 17px;
+           }
+
+   
+    .activeOrganizer div{
+        font-size: 16px;
+    }
+} */
+/* ////////////////////media query for screen width 414/////////////////// */
+/* @media only screen  and (width: 414px) and (height:736px){
+
+    #modalImage1 img{
+        width: 155px
+         }
+         #modalImage2 img{
+          width: 159px
+           }
+         #modalImage2 {
+           margin-left: 15px;
+           }
+          
+         .textContent {
+           margin-bottom: 30px;
+           }
+    
+
+} */
+/* ///////////////////////// media Query for ipad with screen ///////////////////// */
+/* @media (min-width:768px) and (height:1024px){
+    .divContainer {
+        height: 117px;
+        padding: 35px 42px 0px 9px;
+    }
+    .divContainer .backBtn a {
+        font-size: 25px;
+    }
+
+    .divContainer .imgheaderNav{
+        width: 90px;
+       height: 60px;
+}
+
+.divContainer p {
+    font-size: 28px;
+
+}
+#expandedImg {
+    height: 350px;
+}
+.textContent {
+    font-size: 21px;
+}
+.textContent .activityName{
+    font-size: 23px;
+}
+.shareImage {
+    margin-top: 22px;
+}
+.textContent .normal{
+font-size: 20px;
+}
+.textContent .activeOrganizer{
+    font-size: 20px;
+}
+
+
+} */
+/* ///////////////////////// media Query for ipad with screen ///////////////////// */
+/* @media (min-width:1024px) {
+    .divContainer {
+        height: 120px;
+        padding: 35px 42px 0px 9px;
+    }
+    .divContainer .backBtn a {
+        font-size: 30px;
+    }
+
+    .divContainer .imgheaderNav{
+        width: 95px;
+       height: 65px;
+}
+
+.divContainer p {
+    font-size: 30px;
+
+}
+#expandedImg {
+    height: 480px;
+}
+.textContent {
+    font-size: 35px;
+}
+.textContent .activityName{
+    font-size: 35px;
+}
+.shareImage {
+    margin-top: 38px;
+    width: 42px;
+    height: 41px;
+}
+.textContent .normal{
+    font-size: 27px;
+    margin-top: 18px;
+}
+.textContent .activeOrganizer{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+
+ 
+} */
+
+/* @media (min-width:1309px) {
+    #downArrow1 {
+        position: relative;
+        left: 20px;
+        font-size: 27px;
+        bottom: 0px;
+    }
+    #downArrow2 {
+        font-size: 27px;
+        position: relative;
+        left: 40px;
+        bottom: 0px;
+    }
+    .divContainer {
+        height: 120px;
+        padding: 35px 42px 0px 9px;
+    }
+    .divContainer .backBtn a {
+        font-size: 30px;
+    }
+
+    .divContainer .imgheaderNav{
+        width: 95px;
+       height: 65px;
+}
+
+.divContainer p {
+    font-size: 30px;
+
+}
+#expandedImg {
+    height: 480px;
+}
+.textContent {
+    font-size: 35px;
+}
+.textContent .activityName{
+    font-size: 35px;
+}
+.shareImage {
+    margin-top: 38px;
+    width: 42px;
+    height: 41px;
+}
+.textContent .normal{
+    font-size: 27px;
+    margin-top: 18px;
+}
+.textContent .activeOrganizer{
+    font-size: 30px;
+    margin-top: 10px;
+} 
+
+ 
+
+} */
+
+/* /////////////////////////end media Query///////////////////// */
+
+/* .textContent{
+    border-bottom: 5px solid #ccc8c8;
+} */
+
+/* .secondSection{
+    margin-top: 25px;
+    color: black;
+    font-size: 12px;
+    border-bottom: 5px solid #ccc8c8;
+} */
+
+.lastSection{
+    margin-top: 25px;
+    color: black;
+    font-size: 12px;
+    border-bottom: 20px solid #ccc8c8;
+}
+
+.float-right{
+    position: relative;
+    bottom: 5px;
+   color:#0dcaca;
+   font-size: 12px;
+}
+
+.paidIcon4{
+    position: relative;
+    left: 31px;
+}
+
+.paidIcon3{
+    position: relative;
+    left: 16px;
+}
+
+.paidIcon img{
+    width: 38px;
+    height: 45px;
+}
+.paidIcon3 img{
+    width: 38px;
+    height: 45px;
+}
+.paidIcon4 img{
+    width: 38px;
+    height: 45px;
+}
+
+.paidIcon span{
+    font-size: 12px;
+    margin-top: 6px;
+    text-align: center;
+    margin-right: 13px;
+}
+.paidIcon3 span{
+    font-size: 12px;
+    margin-top: 6px;
+    text-align: center;
+    margin-right: 13px;
+}
+.paidIcon4 span{
+    font-size: 12px;
+    margin-top: 6px;
+    text-align: center;
+    margin-right: 13px;
+}
+
+/* .thirdSection{
+    border-bottom: 5px solid #ccc8c8;
+} */
+

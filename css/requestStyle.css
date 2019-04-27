@@ -1,0 +1,151 @@
+@import url('activityDetailStyle.css');
+html{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   background-color: #ebebec;;
+    width:100%;
+    height:100%;
+}
+
+.tableContainer{
+    font-size: 32px;
+    background-color: white;
+    margin-top: 25px;
+    margin-bottom: 21px;
+    height: 421px;
+}
+
+.table td, .table th {
+    padding: 1.5rem;
+}
+.float-right{
+    color: gray;
+}
+hr{
+    width: 137px;
+    border-top: 1px solid black;
+    height: 1px;
+    color: #1b1a1a;
+}
+.accepted{
+    color:#21cebe;
+    font-size:35px
+}
+.rejected{
+    color:red;
+    font-size:35px
+}
+.uncertain{
+    color:gray;
+    font-size:35px
+}
+.table thead th {
+    border-bottom:none;
+}
+.table td, .table th {
+    border-top: none;
+}
+
+/* //////media query ///////////////////// */
+@media screen and (min-width:321px) and (max-width:375px){
+    .tableContainer{
+       font-size: 18px;
+       margin-top: 15px;
+       margin-bottom: 10px;
+       height: 243px;
+    }
+    .accepted , .rejected , .uncertain{
+        font-size: 18px; 
+    }
+    .table td {
+       font-size: 15px;
+    }
+    .table td , .table th{
+        padding: 1rem;
+    }
+    hr {
+        width: 49px;
+    }
+}
+
+/* //////////////////////////////////////////////////////////////// */
+@media screen and (min-width:376px) and (max-width:414px){
+    .tableContainer{
+        font-size: 18px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        height: 243px;
+     }
+     .accepted , .rejected , .uncertain{
+         font-size: 18px; 
+     }
+     .table td {
+        font-size: 15px;
+     }
+     .table td , .table th{
+         padding: 1rem;
+     }
+     hr {
+         width: 49px;
+     }
+}
+/* ///////////////media for screen 320 px////////////// */
+@media (max-width:320px){
+
+    .tableContainer{
+        font-size: 17px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        height: 243px;
+     }
+     .accepted , .rejected , .uncertain{
+         font-size: 17px; 
+     }
+     .table td {
+        font-size: 14px;
+     }
+     .table td , .table th{
+         padding: 1rem;
+     }
+     hr {
+         width: 49px;
+     }
+}
+/* ///////////////media for screen 320 px////////////// */
+@media (min-width:768px){
+    .filter{
+        width: 35px;
+        height: 35px;
+    }
+
+    .sort{
+        width: 35px;
+        height: 35px;
+    }
+    .divContainer {
+        height: 197px;
+    }
+
+    
+    .divContainer .openNavIcon{
+        color: white;
+        font-size: 50px;
+        margin-top: 11px;
+    }
+    .divContainer .arabic{
+        color: white;
+        margin-top: 20px;
+        font-size: 37px;
+    }
+    .sortIcon p {
+        font-size: 30px;
+    }
+    .sortIcon img{
+     width: 30px;
+    height: 34px;
+    }
+
+}
+

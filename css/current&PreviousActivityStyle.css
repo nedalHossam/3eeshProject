@@ -1,0 +1,328 @@
+@import url("indexStyle.css");
+html{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   background-color: #ebebec;;
+    width:100%;
+    height:100%;
+}
+
+.currentheader{
+    width: 100%;
+    background-color: white;
+    height: 80px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.previous{
+    margin-top: 11px;
+    width: 50%;
+    text-align: center;
+    border-right: 1px solid gray;
+}
+.previous a{
+    color: gray;
+   
+}
+.previous:hover{
+    color:black;
+    border-bottom: 7px solid #1d91b1;
+}
+.current a{
+    color: gray;  
+}
+.previous a:hover{
+    color:black;
+    text-decoration: none
+}
+.current a:hover{
+    color:black;
+    text-decoration: none
+}
+.current:hover{
+   
+    border-bottom: 5px solid #1d91b1;
+}
+.current{
+    margin-top: 11px;
+    width: 50%;
+    text-align: center
+}
+
+
+.allActivity{
+margin-top: 30px;
+}
+.items{
+    height: 371px;
+    background-color: white;
+    margin-bottom: 22px;
+}
+.items .activityImages{
+   
+    height: 370px;
+    width: 100%;
+  
+}
+
+.col-md-6 , .col-sm-6 , .col-6{
+    padding-left:0px;
+    padding-right: 34px;
+}
+
+.items .caption p{
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+}
+
+.items .rate{
+    font-size: 28px;
+    position: relative;
+   
+}
+
+.items .details div{
+    font-size: 28px;
+    line-height: 2;
+}
+
+.items .rightText{
+    /* position: relative;
+    right: 13px; */
+    line-height: 2.7;
+}
+.items .rightText .organizer{
+    font-size: 23px;
+    position: relative;
+    /* left: 28px; */
+    
+}
+
+
+/* //////media query ///////////////////// */
+@media screen and (min-width:321px) and (max-width:375px){
+ 
+ .currentheader {
+    height: 45px;
+    font-size: 19px;
+ }
+ .col-md-6, .col-sm-6, .col-6 {
+    padding-right: 7px;
+}
+.items .rate {
+    font-size: 12px;
+}
+.items .activityImages {
+    height: 234px;
+    position: relative;
+    width: 100%;
+}
+.items .details div {
+    font-size: 15px;
+    line-height: 2;
+}
+.items .rightText .organizer {
+    font-size: 9px;
+}
+.items .caption p {
+    font-size: 20px;
+}
+.items {
+    height: 236px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.row {
+
+    margin-right:0px;
+    margin-left: 0px;
+}
+.container {
+    width: 100%;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+.allActivity {
+    margin-top: 8px;
+}
+}
+/* //////////////////////////////////////////////////////////////// */
+@media screen and (min-width:376px) and (max-width:414px){
+    .currentheader {
+        height: 55px;
+        font-size: 21px;
+     }
+     .col-md-6, .col-sm-6, .col-6 {
+        padding-right: 7px;
+    }
+    .items .rate {
+        font-size: 12px;
+    }
+    .items .activityImages {
+        height: 263px;
+        position: relative;
+        width: 100%;
+    }
+    .items .details div {
+        font-size: 17px;
+        line-height: 3;
+    }
+    .items .rightText .organizer {
+        font-size: 11px
+    }
+    .items .caption p {
+        font-size: 20px;
+    }
+    .items {
+        height: 264px;
+        background-color: white;
+        margin-bottom: 10px;
+    }
+    .row {
+    
+        margin-right:0px;
+        margin-left: 0px;
+    }
+    .container {
+        width: 100%;
+        padding-right: 7px;
+        padding-left: 7px;
+    }
+    .allActivity {
+        margin-top: 8px;
+    }
+
+}
+
+/* ///////////////media for screen 320 px////////////// */
+@media (max-width:320px){
+
+    .currentheader {
+        height: 45px;
+        font-size: 19px;
+     }
+     .col-md-6, .col-sm-6, .col-6 {
+        padding-right: 7px;
+    }
+    .items .rate {
+        font-size: 12px;
+    }
+    .items .activityImages {
+        height: 263px;
+        position: relative;
+        width: 100%;
+    }
+    .items .details div {
+        font-size: 15px;
+        line-height: 3;
+    }
+    .items .rightText .organizer {
+        font-size: 9px;
+    }
+    .items .caption p {
+        font-size: 20px;
+    }
+    .items {
+        height: 264px;
+        background-color: white;
+        margin-bottom: 10px;
+    }
+    .row {
+    
+        margin-right:0px;
+        margin-left: 0px;
+    }
+    .container {
+        width: 100%;
+        padding-right: 7px;
+        padding-left: 7px;
+    }
+    .allActivity {
+        margin-top: 8px;
+    }
+}
+/* /////////////////////////////////////////////////////////////////// */
+@media screen and (min-width:415px) and (max-width:768px){
+    .currentheader {
+        height: 70px;
+        font-size: 30px;
+    }
+    .items .caption p {
+        font-size: 27px;
+        margin-bottom: 0px;
+    }
+    .col-md-6, .col-sm-6, .col-6 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .items .rightText {
+        padding-left: 10px;
+    }
+    .items .rate {
+        font-size: 22px;
+    }
+    .items .rightText .organizer {
+        font-size: 19px;
+    }
+    .items .details div {
+        font-size: 25px;
+        line-height: 2.9;
+    }
+    .divContainer .openNavIcon{
+        color: white;
+        font-size: 50px;
+        margin-top: 11px;
+    }
+    .divContainer .arabic{
+        color: white;
+        margin-top: 20px;
+        font-size: 37px;
+    }
+
+}
+
+@media (min-width: 1024px){
+    .col-md-6 {
+   
+        max-width: 100%;
+    } 
+    .divContainer {
+        height: 160px;
+     }
+    
+    .items .activityImages {
+        height: 370px;
+        width: 100%;
+    }
+    .items .caption p {
+        font-size: 32px;
+    }
+
+    .items .rate
+    {
+        font-size: 25px;
+    }
+    .items .organizer p{
+        font-size: 23px;
+    }
+
+    .items .details div{
+        font-size: 28px;
+        line-height: 2;
+    }
+    .divContainer .openNavIcon{
+        color: white;
+        font-size: 50px;
+        margin-top: 11px;
+    }
+    .divContainer .arabic{
+        color: white;
+        margin-top: 20px;
+        font-size: 37px;
+    }
+}
+

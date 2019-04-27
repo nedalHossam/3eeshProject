@@ -1,0 +1,327 @@
+html ,body{
+    background-color: rgb(249, 248, 248);
+    margin: 0;
+    padding: 0;
+}
+
+
+.divContainer{
+    padding: 17px 42px 0px 9px;
+    background-color: #21cebe;
+}
+
+.divContainer p{
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 12px;
+}
+
+.divContainer .backBtn a{
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    position: relative;
+    top: 14px;
+}
+.container{
+    padding-top: 24px;
+}
+.table{
+    border-bottom: 1px solid #ece9e9;
+    border-right: 1px solid #ece9e9;
+    border-left: 1px solid #ece9e9;
+    font-size: 13px;
+    border-radius: 10px;
+}
+.table thead{
+    background-color: #21cebe;
+    color: white;
+}
+
+#code{
+    width: 58%;
+    height: 45px;
+    margin-left: 7px;
+    border: 1px solid #ece9e9;
+    padding-left: 14px;
+    border-radius: 7px;
+}
+
+.form-control {
+    height: 43px;
+}
+
+hr{
+    color:gray;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+.clearfix{
+    line-height: 1;
+    margin-top: 11px;
+}
+
+.next{
+    background-color: #21cebe;
+}
+
+.next a{
+    color: white;
+    font-size: x-large;
+    padding-left: 144px;
+    text-decoration: none;
+}
+
+
+@media only screen  and (width:411px) and (height:731px){
+    .form-control {
+        height: 50px;
+    }
+   .table {
+        font-size: 15px;
+    }
+    #code {
+        height: 58px;
+    }
+    .clearfix {
+        margin-top: 15px;
+    }
+    .next a {
+        padding-left: 180px;
+    }
+    .next {
+        height: 50px;
+    }
+}
+
+/* //////////////media query for pixel 2xl/////////////////////////// */
+
+
+@media only screen  and (width:411px) and (height:823px){
+    .form-control {
+        height: 56px;
+    }
+   .table {
+        font-size: 17px;
+    }
+    #code {
+        height: 65px;
+    }
+    .clearfix {
+        margin-top: 30px;
+    }
+    hr {
+        margin-top: 31px;
+    }
+    .next a {
+        padding-left: 180px;
+        position: relative;
+        top: 13px;
+        font-size: 30px;
+
+    }
+    .next {
+        height: 70px;
+    }
+}
+
+/* //////////////media query for screen width 360px /////////////////////////// */
+@media only screen  and (width:360px) and (height:640px){
+    #code {
+        height: 45px;
+        margin-left: 146px;
+        position: relative;
+        bottom: 18px;
+    }
+    .codeText{
+        position: relative;
+        top: 15px;
+    }
+    .next {
+        height: 43px;
+    }
+}
+
+@media only screen  and (width:320px) and (height:568px){
+    .form-control {
+        height: 40px;
+    }
+   .table {
+        font-size: 12px;
+    }
+    #code {
+        height: 45px;
+        margin-left: 123px;
+        position: relative;
+        bottom: 18px;
+    }
+    .codeText{
+        position: relative;
+        top: 15px;
+        font-size:13px
+    }
+    .next {
+        height: 43px;
+    }
+    .next a {
+        padding-left: 135px;
+        font-size: 21px;
+    }
+   
+}
+
+/* /////////////////////////////////////////////////////////////////// */
+
+
+@media only screen  and (width:375px) and (height:812px){
+    label{
+        font-size: 20px;
+     }
+     
+     .container {
+        line-height: 2.5;
+    }
+    .form-control {
+        height: 63px;
+    }
+    .selectOption {
+        margin-right: 35px;
+        width: 82%;
+    }
+
+    .next a {
+        padding-left: 160px;
+        font-size: 27px;
+    }
+    .next {
+        height: 65px;
+    }
+}
+
+/* //////////////////////////////////////////////////////////////////////*/
+
+@media only screen  and (width:414px) and (height:736px){
+
+    .table {
+      font-size: 17px;
+    }
+    
+    .form-control {
+        height: 50px;     
+        padding: .1275rem 0rem;
+        font-size: 15px;
+        padding-left: 23px;
+    }
+    
+   .form-group{
+    line-height: 3;
+    font-size: 20px;
+   }
+    .next a {
+        padding-left: 185px;
+        font-size: 26px;
+    }
+    .next {
+        height: 67px;
+    }
+
+    
+}
+
+/* /////////////////////////////////////////////////////////////////// */
+@media (width: 768px){
+    .divContainer {
+        height: 117px;
+        padding: 35px 42px 0px 9px;
+    }
+    .divContainer .backBtn a {
+        font-size: 25px;
+    }
+
+    .divContainer .imgheaderNav{
+        width: 90px;
+       height: 60px;
+}
+.table {
+    font-size: 17px;
+  }
+.divContainer p {
+    font-size: 28px;
+
+}
+
+.container {
+    padding-top: 43px;
+}
+
+.form-control {
+    width: 100%;
+    height: 77px;
+    margin-bottom: 62px;
+    font-size: 21px;
+}
+.next {
+    padding-top: 21px;
+    height: 96px;
+}
+
+.next a {
+    font-size: 36px;
+    padding-left: 341px;    
+}
+}
+
+/* ///////////////////////////////////////////////////////////////////*/
+@media (min-width: 1024px){
+    .divContainer {
+        height: 147px;
+        padding: 35px 42px 0px 9px;
+    }
+    .divContainer .backBtn a {
+        font-size: 35px;
+    }
+
+    .divContainer .imgheaderNav{
+        width: 125px;
+        height: 72px;
+}
+.table {
+    font-size: 25px;
+  }
+.divContainer p {
+    font-size: 35px;
+
+}
+.container {
+    padding-top: 130px;
+    line-height: 3;
+}
+
+.form-control {
+    width: 100%;
+    height: 102px;
+    margin-bottom: 44px;
+    font-size: 27px;
+}
+
+.next {
+    padding-top: 39px;
+    height: 129px;
+    margin-top: 168px;
+}
+
+.next a {
+    font-size: 46px;
+    padding-left: 509px;  
+}
+
+.codeText{
+    font-size: 23px;
+}
+#code{
+    height: 60px;
+}
+}
+/* //////////////////////////////////////////////////////////////////////*/

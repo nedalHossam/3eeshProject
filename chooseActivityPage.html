@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html >
+    <meta charset="utf-8" />
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+         <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ'
+             crossorigin='anonymous'>
+     
+             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+         <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+     
+         <link href="css/chooseActivityStyle.css" rel="stylesheet">
+     
+     </head>
+     
+     <body >
+         
+     <!-- Navigation
+    ==========================================-->
+    <div class="d-flex justify-content-between  divContainer">
+      <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn " onclick="closeNav()"><i class="fas fa-chevron-left  primary"></i></a>
+              <img class="imgSlideNav" src="images/Logoedit.png"/><br><br>
+              <div class="d-flex">
+                <a href="#"><img src="images/account.png" width="15px" height="15px"/>my account</a>
+                <a href="#"><img src="images/sign out.png" width="15px" height="15px"/>sign out</a>
+            </div>
+            <hr class="navLine">
+              <a href="#" class="navLink"><img src="images/home.png" width="15px" height="15px"/>&nbsp; home</a>
+              <a href="#" class="navLink"><img src="images/reservation list.png"  width="15px" height="15px"/>&nbsp;reservation lists</a>
+              <a href="#" class="navLink"><img src="images/ticket.png"  width="15px" height="15px"/>&nbsp;find reservation</a>
+              <a href="#" class="navLink"><img src="images/report.png" width="15px" height="15px"/>&nbsp;financial reports</a>
+              <a href="#" class="navLink"><img src="images/camping.png" width="15px" height="15px"/>&nbsp;my activities</a>
+              <a href="#" class="navLink"><img src="images/asset-15.png" width="15px" height="15px"/>&nbsp;add an advertisment</a>
+              <a href="#" class="navLink"><img src="images/services.png" width="15px" height="15px"/>&nbsp;services</a>
+              <a href="#" class="navLink">add new service</a>
+              <a href="#" class="navLink">previous request</a>
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fas fa-align-left sidenavIcon " style="color:white;margin-top: 11px;"></i></span>
+            <img class="imgheaderNav" src="images/Logo_white.png" width="77px" height="40px"/>
+            <a href="#"><p class="arabPar " style="color:white;margin-top: 20px">AR</p></a>
+           <!---------------------- end Navigation ---------------->
+  </div>
+  
+
+
+
+     <div class="container">
+         <div class="row ">
+             <div class="d-flex justify-content-between menu">
+             <div class="icon">
+                 <a class="link" href="#" data-link="first"  onclick="chang(this);"><img src="images/camping-tent.png" id="imgChooseActivity"></a>
+                 <p id="chooseActivity" ><strong>choose activity</strong></p>
+             </div>
+
+             <hr class="line" id="line1">
+
+             <div class="icon">
+                 <a class="link" href="#" data-link="second" onclick="changeImage1(this);"><img src="images/profiles.png" id="imgProfile"></a>
+                 <p id="chooseInfo" ><strong>activity info</strong></p>
+             </div>
+
+             <hr class="line" id="line2">
+
+             <div class="icon">
+                <a class="link" href="#" data-link="third" onclick="changeImage2(this);"><img src="images/appointment.png" id="appointment"></a>
+                <p id="dateAndSeats"><strong>dates and seats</strong></p>
+            </div>
+
+             <hr class="line" id="line3">
+
+            
+             <div class="icon">
+                 <a class="link" href="#" data-link="fourth" onclick="changeImage3(this);" ><img src="images/movie-tickets.png" id="tickets"></a>
+                <p id="price"><strong>Price and tickets</strong></p>
+             </div>
+ 
+
+             <hr class="line" id="line4">
+
+             <div class="icon">
+                 <a class="link" href="#" data-link="fifth" onclick="changeImage4(this);"><img src="images/promotion.png" id="promotion"></a>
+                <p id="details"><strong>publish details</strong></p>
+            </div>
+              </div>
+         </div>
+     </div>
+
+     <!-- //////////////////////content////////////////////////////////// -->
+
+     <div id="pages_about" class="textContainer_about">
+
+            <div class="textWord_about" data-link="first">
+            <div class="container  allCheck">
+                <div class="row">
+                    <h4>Activity type</h4>
+                </div>
+
+                <div class="row justify-content-center firstmodal">
+                       <div class="col-md-4 col-sm-4 col-4  "> 
+                           <div class="form-check-inline checkBtn1">
+                                <label class="form-check-label">
+                                 <img src="images/nautical.png" class="mr-2"><a href="#"><input type="radio" class="form-check-input" name="optradio"></a>
+                                </label>
+                              </div>
+                              <div class="firstcheck"> <p><strong>Nuatical</strong></p></div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-4 col-4  "> 
+                              <div class="form-check-inline checkBtn2">
+                                <label class="form-check-label">
+                                <img src="images/hot-air-balloons.png" class="mr-2" ><a href="#"><input type="radio" class="form-check-input" name="optradio"></a>
+                                </label>
+                              </div>
+                              <div class="iconTextStyle"> <p><strong>aerial</strong></p></div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-4 col-4  "> 
+                              <div class="form-check-inline checkBtn3">
+                                    <label class="form-check-label">
+                                   <img src="images/mountain.png" class="mr-2"><a href="#"><input type="radio" class="form-check-input" name="optradio"></a>
+                                    </label>
+                                  </div>
+                                  <div class="iconTextStyle"><p><strong>wild</strong></p></div>
+                            </div>
+               
+                        </div>
+
+                        <div class="row lastHeader">
+                          <h4>Chosen services</h4>
+                      </div>
+
+                      <div class="multiCheckIcon">
+                        <div class="row">
+                          <div class="form-check-inline lastCheck">
+                            <label class="form-check-label">
+                              <a href="#"><input type="radio" class="form-check-input  chooseActivityRadio" name="optradio" onclick="check1fun(this);" ></a><span id="check1">Glide</span>
+                            </label>
+                          </div>
+                          <div class="form-check-inline lastCheck">
+                            <label class="form-check-label">
+                              <a href="#"><input type="radio" class="form-check-input  chooseActivityRadio" name="optradio" onclick="check2fun(this);"></a><span id="check2">Jet ski</span>
+                            </label>
+                          </div>
+                          <div class="form-check-inline lastCheck">
+                            <label class="form-check-label">
+                              <a href="#"><input type="radio" class="form-check-input  chooseActivityRadio" name="optradio" onclick="check3fun(this);"></a><span id="check3">picnic</span>
+                            </label>
+                          </div>
+                          <div class="form-check-inline lastCheck">
+                            <label class="form-check-label">
+                              <a href="#"><input type="radio" class="form-check-input chooseActivityRadio" name="optradio" onclick="check4fun(this);"></a><span id="check4">hunting</span>
+                            </label>
+                          </div>
+                        </div>
+
+
+                        <div class="row">
+                          <div class="form-check-inline lastCheck">
+                            <label class="form-check-label">
+                              <a href="#"><input type="radio" class="form-check-input  chooseActivityRadio" name="optradio" onclick="check5fun(this);"></a><span id="check5">hunting</span>
+                            </label>
+                          </div>
+                          <div class="form-check-inline lastCheck">
+                            <label class="form-check-label">
+                              <a href="#"><input type="radio" class="form-check-input chooseActivityRadio" name="optradio" onclick="check6fun(this);"></a><span id="check6">Jet ski</span>
+                            </label>
+                          </div>
+                          <div class="form-check-inline lastCheck">
+                            <label class="form-check-label">
+                              <a href="#"><input type="radio" class="form-check-input  chooseActivityRadio" name="optradio" onclick="check7fun(this);" ></a><span id="check7">Glide</span>
+                            </label>
+                          </div>
+                          </div>
+                          </div>
+
+            </div>
+
+            <div class="publishfooter">
+              <a href="#">Next</a>
+            </div>
+             </div>
+
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+             <div class="textWord_about" data-link="second">
+              <div class="container gallaryCheck">
+                 <div class="row">
+                     <h3 class="activityInfoHeader">choose from this image</h3>
+                 </div>
+ 
+                 <div class="scrollBackground">
+                 <div  id="scrollable-content">
+                 <div class="row ">
+                     <div class="form-check-inline ">
+                         <label class="form-check-label">
+                           <input type="checkbox" class="form-check-input activityInfoCheck"><img src="images/161205 rotator hamburg 1600x980.jpg" class="imageCheck" width="50px"  height="50px">
+                         </label>
+                       </div>
+                       <div class="form-check-inline">
+                         <label class="form-check-label">
+                           <input type="checkbox" class="form-check-input activityInfoCheck"><img src="images/161205 rotator hamburg 1600x980.jpg" class="imageCheck" width="50px"  height="50px">
+                         </label>
+                       </div>
+                       <div class="form-check-inline">
+                         <label class="form-check-label">
+                           <input type="checkbox" class="form-check-input activityInfoCheck"><img src="images/161205 rotator hamburg 1600x980.jpg" class="imageCheck" width="50px"  height="50px">
+                         </label>
+                       </div>
+                       <div class="form-check-inline">
+                         <label class="form-check-label">
+                           <input type="checkbox" class="form-check-input activityInfoCheck"><img src="images/161205 rotator hamburg 1600x980.jpg" class="imageCheck" width="50px"  height="50px">
+                         </label>
+                       </div>
+                 </div>
+ 
+ 
+                 <div class="row ">
+                     <div class="form-check-inline">
+                         <label class="form-check-label">
+                           <input type="checkbox" class="form-check-input activityInfoCheck" ><img src="images/161205 rotator hamburg 1600x980.jpg" class="imageCheck" width="50px"  height="50px">
+                         </label>
+                       </div>
+                       <div class="form-check-inline">
+                         <label class="form-check-label">
+                           <input type="checkbox" class="form-check-input activityInfoCheck" ><img src="images/161205 rotator hamburg 1600x980.jpg" class="imageCheck" width="50px"  height="50px">
+                         </label>
+                       </div>
+                       <div class="form-check-inline">
+                         <label class="form-check-label">
+                           <input type="checkbox" class="form-check-input activityInfoCheck" ><img src="images/161205 rotator hamburg 1600x980.jpg" class="imageCheck" width="50px"  height="50px">
+                         </label>
+                       </div>
+                       <div class="form-check-inline">
+                         <label class="form-check-label">
+                           <input type="checkbox" class="form-check-input activityInfoCheck"><img src="images/161205 rotator hamburg 1600x980.jpg" class="imageCheck" width="50px"  height="50px">
+                         </label>
+                       </div>
+                 </div>
+ 
+ 
+                 <div class="row ">
+                     <div class="form-check-inline ">
+                         <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input activityInfoCheck"><img src="images/161205 rotator hamburg 1600x980.jpg" class="imageCheck" width="50px"  height="50px">
+                         </label>
+                       </div>
+                       <div class="form-check-inline">
+                         <label class="form-check-label">
+                           <input type="checkbox" class="form-check-input activityInfoCheck" ><img src="images/161205 rotator hamburg 1600x980.jpg" class="imageCheck" width="50px"  height="50px">
+                         </label>
+                       </div>
+                       <div class="form-check-inline ">
+                         <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input  activityInfoCheck"><img src="images/161205 rotator hamburg 1600x980.jpg" class="imageCheck" width="50px"  height="50px">
+                         </label>
+                       </div>
+                       <div class="form-check-inline ">
+                         <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input  activityInfoCheck" ><img src="images/161205 rotator hamburg 1600x980.jpg" class="imageCheck" width="50px"  height="50px">
+                         </label>
+                       </div>
+                 </div>
+       </div>
+     </div>
+       <!-- ///////////////////////////end scroll div////////////////////////////////////// -->
+ 
+ <br><br>
+          <div class="row">
+              <h3 class="activityInfoHeader">or from gallery</h3>
+         </div>
+ 
+    
+         <div class="clear-fix">
+             <div class="float-left">
+                     <span class="firstbadge">1</span>
+                     <input type="button" class="btn btn-info"   onclick="(this.type='file')"  onblur="(this.type='file')" value="choose main photo">
+             </div>
+ 
+             <div class="float-right">
+                     <span class="secondbadge">2</span>
+                     <input type="button" class="btn btn-info"   onclick="(this.type='file')"  onblur="(this.type='file')" value="choose the others">
+                     <div class="uploadText"><p>upload up to 5</p></div>
+                 </div>
+           </div>
+       
+ <div style="clear:both"></div>
+         <!-- ////////////////////////////////////////////////////////////// -->
+         <br>
+         <div class="row">
+                 <h3 class="activityInfoHeader">activity name</h3>
+            </div>
+        <div class="row">
+         <div class="form-group">
+                 <input type="text" class="form-control" id="name"  placeholder="Iorem Isplum" required>
+               </div>  
+        </div>
+ 
+ 
+       
+        <div class="clear-fix">
+            
+             <div class="float-left form-group">
+                     <label for="sel1" class="chooseCountry">City</label>
+                     <select class="form-control" id="sel1">
+                       <option selected="selected">Riyadh</option>
+                       <option>Jadaa</option>
+                       <option>Yammen</option>
+                       <option>El-Taef</option>
+                     </select>
+                   </div>
+ 
+ 
+                   <div class="float-right form-group">
+                         <label for="sel2" class="chooseCountry">Country</label>
+                         <select class="form-control" id="sel2">
+                           <option selected="selected" >Suaid</option>
+                           <option>Egypt</option>
+                           <option>Kuwit</option>
+                           <option>Turky</option>
+                         </select>
+                       </div>
+        </div>
+ 
+ 
+              </div>
+             </div>
+
+
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+<div class="textWord_about" data-link="third">
+  <div class="container ">
+     <div class="row  labelHeader">
+         <h3>activity type</h3>
+     </div>
+<br>
+
+     <div class="row d-flex">
+   <div class="repeatCheck">
+      <label class="radio-inline"><input type="radio"  class="radioCheck">repeated</label>
+   </div>
+
+   <div class="fullCheck">
+      <label class="radio-inline"><input type="radio"  checked  class="radioCheck">full activity</label>
+   </div>
+     </div>
+
+
+
+     <div class="row  labelHeader">
+        <h3>activity date</h3>
+     </div>
+
+     <div class="row">
+          <input type="text" class="form-control" id="date" placeholder=" from  11-9-2019   to   11-10-2019"  onclick="(this.type='date')">
+     </div>
+
+
+
+
+     <div class="row  labelHeader">
+      <h3>activity publishing date</h3>
+   </div>
+     <div class="row">   
+          <input type="text" class="form-control" id="pdate" placeholder=" from  11-9-2019   to   11-10-2019"  onclick="(this.type='date')">
+     </div>
+
+
+
+     <div class="row labelHeader">
+      <h3>activity time </h3>
+   </div>
+     <div class="row">
+          <input type="text" class="form-control"  id="time"  placeholder=" from  10:00 AM    to   10:00 PM "  onclick="(this.type='time')">
+     </div>
+
+
+
+
+     <div class="row  labelHeader footCkeck">
+      <h3>price category</h3>
+   </div>
+     <div class="row d-flex">
+      <div class="repeatCheck">
+         <label class="radio-inline"><input type="radio" checked  class="radioCheck"> normal</label>
+      </div>
+ 
+      <div class="fullCheck">
+         <label class="radio-inline"><input type="radio" class="radioCheck"> children</label>
+      </div>
+        </div>
+<br><br>
+
+     </div>
+     </div>
+
+
+
+   <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+
+   <div class="textWord_about" data-link="fourth">
+    <div class="container ">
+        <div class="row paidHeader">
+            <h3>non paid services</h3>
+        </div>
+
+
+        <div class="row d-flex">
+            
+            <div class="foodCheck">
+                <label class="radio-inline"><input type="radio" checked class="paidCheck" >food</label>
+             </div>
+        
+             <div class="lifeCheck">
+                <label class="radio-inline"><input type="radio"  class="paidCheck">life jacket</label>
+             </div>
+
+             <div class="photoCheck">
+                <label class="radio-inline"><input type="radio"   class="paidCheck">photography</label>
+             </div>
+
+       </div>
+ <br>
+
+     <div class="row paidHeader">
+        <h3>paid services</h3>
+     </div>
+
+     <div class="row d-flex  paidService">
+        <div>
+            <label class="radio-inline"><input type="radio" checked class="paidCheck" >life jacket</label>
+         </div>
+
+         <div><a href="#">Add price</a></div>
+     </div>
+
+     <div class="row d-flex paidService">
+        <div>
+            <label class="radio-inline"><input type="radio" checked class="paidCheck" >photography</label>
+         </div>
+
+         <div class="paidPhotoPrice"><a href="#">Add price</a></div>
+     </div>
+
+
+
+     <div class="row paidHeader">
+        <h3>add sale</h3>
+     </div>
+  
+   <div class="row">
+      <input type="text" class="form-control" id="sale" placeholder=" % "  onclick="(this.type='number')">
+   </div>
+
+   <div class="row choosePaid">
+    <label class="checkbox-inline"><input type="checkbox" checked class="paidCheck">Refund of the ticket after canceling tne booking</label>
+ </div>
+ <div class="row choosePaid">
+    <label class="checkbox-inline"><input type="checkbox" checked class="paidCheck">Add cash payment</label>
+ </div>
+
+
+ <div class="row paidHeader">
+    <h3>Delay payment</h3>
+ </div>
+
+ <div class="row">
+    <input type="text" class="form-control" id="delay" placeholder=" hour "  onclick="(this.type='number')">
+ </div>
+
+
+
+ 
+
+  </div>
+  <div class="publishfooter">
+    <a href="#">Next</a>
+  </div>
+  </div>
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+<div class="textWord_about" data-link="fifth">
+  <div class="container ">
+<br><br>
+          <div class="row PublishCkeck">
+                  <label class="checkbox-inline"><input type="checkbox" checked class="paidCheck">Make the activity private</label>
+               </div>
+               <div class="row PublishCkeck">
+                  <label class="checkbox-inline"><input type="checkbox" checked class="paidCheck">I have read and agree to the term and condition</label>
+               </div>
+   </div>
+
+
+   <div class="publishfooter">
+          <a href="sendMessagePage.html">Add an advertisment</a>
+        </div>
+   </div>
+
+ <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
+
+            </div>
+            
+<script type="text/javascript" src="js/main.js"></script>
+     <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

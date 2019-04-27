@@ -1,0 +1,257 @@
+@import url('activityDetailStyle.css');
+html{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   background-color: #ebebec;;
+    width:100%;
+    height:100%;
+}
+
+.sortImage {
+    width: 100%;
+    height: 380px;
+}
+.container{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.cellContent{
+  background-color: white;
+    margin-top: 10px;
+   
+}
+
+.row{
+    padding-left: 4px;
+    padding-right: 3px;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.col-md-6 , .col-sm-6 ,.col-6{
+    padding-right: 0px;
+    padding-left: 0px;
+    max-width: 49%;
+}
+
+.firstColum{
+    margin-right: 18px;
+}
+
+.textUnderImage{
+    margin-top: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.textUnderImage h3{
+    font-weight: bold;
+}
+
+.textHeader{
+    font-size: 15px;
+    color: gray;
+}
+.textValue{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* ////////////////////media Query//////////////// */
+@media screen and (min-width:321px) and (max-width:375px){
+    .sortImage {
+        width: 100%;
+        height: 160px;
+    }
+    .textUnderImage {
+        margin-top: 15px;
+        padding-left: 3px;
+        padding-right: 7px;
+    }
+    .textHeader {
+        font-size: 11px;
+    }
+    .textValue {
+        font-weight: bold;
+        font-size: 11px;
+    }
+    .textUnderImage a{
+        font-size: 10px;
+    }
+    .textUnderImage  h3{
+        font-size: 12px;
+    }
+    .firstColum {
+        margin-right: 4px;
+    }
+    .float-right{
+        margin-top: -10px;
+    }
+
+}
+
+
+/* //////////////////////////////////////////////////////////////// */
+@media screen and (min-width:376px) and (max-width:414px){
+    .sortImage {
+        width: 100%;
+        height: 185px;
+    }
+    .textUnderImage {
+        margin-top: 15px;
+        padding-left: 3px;
+        padding-right: 7px;
+    }
+    .textHeader {
+        font-size: 13px;
+    }
+    .textValue {
+        font-weight: bold;
+        font-size: 13px;
+    }
+    .textUnderImage a{
+        font-size: 12px;
+    }
+    .textUnderImage  h3{
+        font-size: 13px;
+    }
+    .firstColum {
+        margin-right: 4px;
+    }
+    .float-right{
+        margin-top: -10px;
+    }
+}
+
+/* ///////////////media for screen 320 px////////////// */
+@media (max-width:320px){
+    .sortImage {
+        width: 100%;
+        height: 160px;
+    }
+    .textUnderImage {
+        margin-top: 15px;
+        padding-left: 3px;
+        padding-right: 7px;
+    }
+    .textHeader {
+        font-size: 11px;
+    }
+    .textValue {
+        font-weight: bold;
+        font-size: 11px;
+    }
+    .textUnderImage a{
+        font-size: 10px;
+    }
+    .textUnderImage  h3{
+        font-size: 12px;
+    }
+    .firstColum {
+        margin-right: 4px;
+    }
+    .float-right{
+        margin-top: -10px;
+    }
+}
+
+/* /////////////////////////////////////////////////////////////////// */
+@media screen and (min-width:415px) and (max-width:768px){
+    .divContainer {
+        height: 179px;
+    }
+   
+    .sortImage {
+        width: 100%;
+        height: 380px;
+    }
+    
+    .firstColum{
+        margin-right: 14px;
+    }
+    
+    .textUnderImage{
+        margin-top: 17px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .textUnderImage h3{
+        font-weight: bold;
+        font-size: 25px;
+    }
+    
+    .textHeader{
+        font-size: 15px;
+        color: gray;
+    }
+    .textValue{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .divContainer .openNavIcon{
+        color: white;
+        font-size: 45px;
+        margin-top: 11px;
+    }
+    .divContainer .arabic{
+        color: white;
+        margin-top: 20px;
+        font-size: 33px;
+    }
+    .sortIcon p {
+        font-size: 25px;
+    }
+    .sortIcon img{
+     width: 25px;
+    height: 25px;
+    }
+    
+}
+
+
+/* /////////////////////////////////////////////////////////////////// */
+@media screen and (min-width:769px) {
+    .divContainer {
+        height: 197px;
+    }
+    .textUnderImage {
+        margin-top: 26px;
+    }
+    .textUnderImage h3{
+    font-size: 30px;
+    }
+
+    .textUnderImage a{
+        font-size: 20px; 
+    }
+    .textHeader{
+        font-size: 20px;
+    }
+    .textValue{
+        font-size: 20px;
+    }
+    .divContainer .openNavIcon{
+        color: white;
+        font-size: 50px;
+        margin-top: 11px;
+    }
+    .divContainer .arabic{
+        color: white;
+        margin-top: 20px;
+        font-size: 37px;
+    }
+    .sortIcon p {
+        font-size: 30px;
+    }
+    .sortIcon img{
+     width: 30px;
+    height: 34px;
+    }
+
+}
+

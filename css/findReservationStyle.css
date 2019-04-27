@@ -1,0 +1,92 @@
+@import url("sendMessageStyle.css");
+
+
+/* /////////////////////////////////////////////////////////////////// */
+@media screen and (min-width:769px) {
+    .container{
+        margin-top: 327px;
+        margin-bottom: 427px;
+  
+}
+label {
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-bottom: 33px;
+}
+
+.divContainer .openNavIcon{
+    color: white;
+    font-size: 50px;
+    margin-top: 11px;
+}
+.divContainer .arabic{
+    color: white;
+    margin-top: 20px;
+    font-size: 37px;
+}
+}
+/* /////////////////////////////////////////////////////////////////// */
+@media screen and (min-width:415px) and (max-width:768px){
+    .container {
+        margin-top: 183px;
+        margin-bottom: 427px;
+    }
+    label {
+        margin-top: 35px;
+        margin-bottom: 33px;
+    }
+    .divContainer .openNavIcon{
+        color: white;
+        font-size: 45px;
+        margin-top: 11px;
+    }
+    .divContainer .arabic{
+        color: white;
+        margin-top: 20px;
+        font-size: 33px;
+    }
+}
+/* ///////////////////////////////////////////// */
+@media screen and (min-width:361px) and (max-width:375px){
+    .container {
+        margin-top: 136px;
+        margin-bottom: 266px;
+    }
+    .footer a {
+        font-size: 24px;
+    }
+}
+
+/* ///////////////media for screen 320 px////////////// */
+@media (max-width:320px){
+    .container {
+        margin-top: 136px;
+        margin-bottom: 177px;
+    }
+    .footer a {
+        font-size: 20px;
+    }
+}
+
+/* //////////////////////////////////////////////////////////////// */
+@media screen and (min-width:375px) and (max-width:414px){
+    .container {
+        margin-top: 162px;
+        margin-bottom: 226px;
+    }
+    .footer a {
+        font-size: 24px;
+    }
+}
+
+/* //////media query ///////////////////// */
+@media screen and (min-width:321px) and (max-width:360px){
+    .container {
+        margin-top: 136px;
+        margin-bottom: 226px;
+    }
+    .footer a {
+        font-size: 24px;
+    }
+}

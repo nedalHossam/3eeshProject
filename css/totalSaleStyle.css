@@ -1,0 +1,15 @@
+@import url("sortActivityStyle.css");
+
+.row{
+    padding-left: 4px;
+    padding-right: 3px;
+}
+/* ///////////////media for screen 320 px////////////// */
+@media (max-width:320px){
+    .textUnderImage h3 {
+        font-size: 10px;
+    }
+    .textHeader {
+        font-size: 10px;
+    }
+}

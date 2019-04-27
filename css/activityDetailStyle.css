@@ -1,0 +1,183 @@
+@import url("indexStyle.css");
+
+.sortIcon p{
+    font-size: 16px;
+    color: white;
+    margin-top: 0px;
+}
+
+.sortIcon image{
+    width: 15px;
+    height: 15px;
+}
+#nextSearch{
+    position: relative;
+    padding-right: 0px;
+    padding-left: 7px;
+    margin-right: auto;
+    padding-top: 0px;
+    margin-left: auto;
+    background-color:rgb(249, 242, 242);
+}
+
+.items{
+    margin-bottom: -18px;
+}
+.items .activityImages{
+        height: 163px;
+        position: relative;
+        right: 14px;
+        margin-bottom: -15px;
+}
+
+.items .caption p{
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+}
+
+.items .rate{
+    font-size: 10px;
+    position: relative;
+    top: 7px;
+}
+
+#nextSearch .items{
+    border: 1px solid #f1ebeb;
+    background-color: white;
+}
+
+
+#nextSearch .row{
+    margin-right: 5px;
+    margin-left: 0px;
+}
+
+.items .rightText{
+    position: relative;
+    right: 22px;
+}
+.items .rightText .organizer{
+    font-size: 10px;
+    position: relative;
+    left: 28px;
+    top:0px
+}
+
+@media only screen  and (max-width: 320px) {
+    .items .rightText .organizer{
+        font-size: 7.4px;
+
+    }
+    .items .activityImages {
+        height: 150px;
+    }
+    .items .rightText {
+        right: 38px;
+    }
+
+    .items .info{
+        font-size: 13px;
+    }
+
+    .items .details{
+        font-size: 14px;
+    }
+}
+
+@media (width: 768px){
+.col-md-6 {
+   
+    max-width: 100%;
+}
+.items .activityImages {
+    height: 163px;
+    position: relative;
+    right: 14px;
+    width: 331px;
+    margin-bottom: -15px;
+}
+.backgroundImage img {
+    height: 235px;
+}
+.divContainer {
+   height: 160px;
+}
+
+.sortIcon {
+    padding-top: 10px;
+}
+.sortIcon p{
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+}
+
+.sortIcon image{
+    width: 20px;
+    height: 20px;
+}
+
+.items .organizer{
+    font-size: 12px;
+}
+
+
+}
+
+@media (min-width: 1024px){
+    .col-md-7 {
+   
+        max-width: 100%;
+    } 
+    .divContainer {
+        height: 160px;
+     }
+    .sortIcon {
+        padding-top: 10px;
+    }
+    .sortIcon p{
+        font-size: 20px;
+        color: white;
+        margin-top: 0px;
+    }
+    
+    .sortIcon image{
+        width: 20px;
+        height: 20px;
+    }  
+    #nextSearch .items {
+        height: 250px;
+    }
+    .items .activityImages {
+        height: 243px;
+        width: 520px;
+    }
+    .items .caption p {
+        font-size: 32px;
+    }
+
+    .items .rate
+    {
+        font-size: 25px;
+    }
+    .items .organizer p{
+        font-size: 20px
+    }
+
+    .items .details div{
+        font-size: 20px;
+        line-height: 2;
+    }
+}
+
+@media only screen  and (width: 411px) and (height:823px){
+
+    .items .activityImages {
+        height: 130px;
+    }
+
+    .items .rightText .organizer {
+        font-size: 11px;
+    }
+}

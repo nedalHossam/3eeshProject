@@ -1,0 +1,705 @@
+@import url("indexStyle.css");
+body{
+    margin-top: 100px;
+    width:100%;
+    height:100%;
+}
+
+.divContainer{
+        height: 142px;
+        margin-top: -99px;
+        padding: 39px 42px 0px 9px;
+        background-color: #21cebe;
+}
+
+.divContainer p{
+    font-size: 28px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 12px;
+}
+
+.divContainer .backBtn a{
+    font-size: 32px;
+    font-weight: bolder;
+    color: white;
+    position: relative;
+    top: 14px;
+}
+.divContainer .imgheaderNav{
+width: 117px;
+height: 71px;
+}
+
+.item img{
+    width: 100%;
+    height: 415px;
+}
+.item{
+    margin-bottom: 20px;
+}
+
+#bookNow{
+    width: 40%;
+    background-color: #0dcaca;
+    color: white;
+    
+}
+#ticketType{
+    width: 30%;
+    border-right: 1px solid gray;
+}
+
+#but1{
+   
+    width: 30%;
+}
+
+.fixedPosition{
+    position: fixed;
+    width: 100%;
+    border-top:1px solid gray;
+    bottom: 0px;
+    background-color: #ecebeb;
+}
+#downArrow2{
+    position: relative;
+    left: 104px;
+    bottom: 69px;
+}
+#downArrow1{
+position: relative;
+left: 12px;
+bottom: 0px;
+}
+
+#myModal .modal-content{
+    background-color: #181827;
+}
+
+#myModal .modal-header {
+    
+     border-bottom: 0px solid black; 
+}
+
+#myModal .modal-footer {
+    
+    border-top:0px solid black; 
+}
+
+.modal {
+    top: 60px;
+    left: 0;
+    line-height: 2;
+    color:rgb(165, 161, 161);
+}
+#myModal .modal-content {
+    background-color: #181827;
+    width: 624px;
+    height: 617px;
+   
+}
+.modal.show .modal-dialog {
+   
+    max-width: 700px;
+    max-height: 700px;
+}
+.modal-header h5{
+font-size: 2.25rem;
+    padding: 15px;
+}
+#modalImage1 img{
+    width: 255px;
+}
+
+#modalImage2 img{
+    width: 255px;  
+}
+#modalImage1 p{
+   font-size: 25px;
+}
+
+#modalImage2 p{
+    font-size: 25px;
+ }
+
+ .modal-footer{
+     font-size: 30px;
+ }
+
+ #modalImage1{
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 12px;
+    margin-right: 56px;
+}
+
+#modalImage1 a{
+    color: #524646;
+    text-decoration: none;
+}
+#modalImage1 a:hover{
+    color: rgb(4, 165, 165);
+}
+
+
+
+#modalImage2 a:hover{
+    color: rgb(4, 165, 165);
+}
+
+#modalImage1:hover{
+    border: 2px solid aqua;
+}
+
+#modalImage2:hover{
+    border: 2px solid aqua;
+}
+#modalImage2 a{
+    color: #524646;
+    text-decoration: none;
+}
+#modalImage2{
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* //////media query ///////////////////// */
+@media screen and (min-width:321px) and (max-width:360px){
+    .divContainer{
+        height: 76px;
+        padding: 17px 42px 0px 9px;
+    }
+    
+    .divContainer p{
+        font-size: 18px;
+    }
+    .divContainer .imgheaderNav {
+        width: 77px;
+        height: 45px;
+    }
+    .divContainer .backBtn a{
+        font-size: 18px;
+    }
+
+    .item img {
+        width: 100%;
+        height: 179px;
+    }
+    .item {
+        margin-bottom: 3px;
+    }
+
+    #bookNow {
+        font-size: 1.5rem;
+        background-color: #0dcaca;
+        color: white;
+        width: 40%;
+    }
+    #ticketType {
+        font-size: 0.9rem;
+        width: 30%;
+        border-right: 1px solid gray;
+    }
+    #but1 {
+        font-size: 0.9rem;
+        width: 30%;
+    }
+    .fixedPosition {
+        position: fixed;
+        width: 100%;  
+        border-top: 1px solid gray;
+        bottom: 0px;
+        background-color: #ecebeb;
+    }
+
+    #downArrow2 {
+        position: relative;
+        left: 4px;
+        bottom: 9px;
+    }
+    #myModal .modal-content {
+        width: 100%;
+        height: 306px;
+    }
+
+    .modal.show .modal-dialog {
+   
+        max-width: 500px;
+        max-height: 500px;
+    }
+    .modal-header h5{
+    font-size: 1.25rem;
+        padding: 15px;
+    }
+    #modalImage1 {
+        margin-left: 12px;
+        margin-right: 19px;
+        height: 138px;
+        margin-top: 22px;
+    }
+    #modalImage2{
+        height: 138px;
+        margin-top: 22px;  
+    }
+
+    #modalImage1 img {
+        width: 100%;
+    }
+    
+    #modalImage2 img{
+        width: 100%;  
+    }
+    #modalImage1 p{
+        font-size: 15px;
+    }
+    
+    #modalImage2 p{
+        font-size: 15px;
+     }
+    
+     .modal-footer{
+        font-size: 15px;
+     }
+     p{
+         margin-top: 0px;
+     }
+
+}
+
+/* //////media query ///////////////////// */
+@media screen and (min-width:361px) and (max-width:375px){
+
+    .divContainer{
+        height: 76px;
+        padding: 17px 42px 0px 9px;
+    }
+    
+    .divContainer p{
+        font-size: 18px;
+    }
+    .divContainer .imgheaderNav {
+        width: 77px;
+        height: 45px;
+    }
+    .divContainer .backBtn a{
+        font-size: 18px;
+    }
+
+    .item img {
+        width: 100%;
+        height: 255px;
+    }
+    .item {
+        margin-bottom: 7px;
+    }
+
+    #bookNow {
+        font-size: 1.7rem;
+        background-color: #0dcaca;
+        color: white;
+        width: 40%;
+        height: 75px;
+    }
+    #ticketType {
+        font-size: 1.1rem;
+        width: 30%;
+        height: 75px;
+        border-right: 1px solid gray;
+    }
+    #but1 {
+        font-size: 1.1rem;
+        width: 30%;
+        height: 75px;
+    }
+    .fixedPosition {
+        height: 75px;
+    }
+
+    #downArrow2 {
+        position: relative;
+        left: 4px;
+        bottom: 9px;
+    }
+    #myModal .modal-content {
+        width: 100%;
+        height: 306px;
+    }
+
+    .modal.show .modal-dialog {
+        margin-top: 80px;
+        max-width: 500px;
+        max-height: 500px;
+    }
+    .modal-header h5{
+    font-size: 1.25rem;
+        padding: 15px;
+    }
+    #modalImage1 {
+        margin-left: 12px;
+        margin-right: 19px;
+        height: 138px;
+        margin-top: 22px;
+    }
+    #modalImage2{
+        height: 138px;
+        margin-top: 22px;  
+    }
+
+    #modalImage1 img {
+        width: 100%;
+    }
+    
+    #modalImage2 img{
+        width: 100%;  
+    }
+    #modalImage1 p{
+        font-size: 15px;
+    }
+    
+    #modalImage2 p{
+        font-size: 15px;
+     }
+    
+     .modal-footer{
+        font-size: 15px;
+     }
+     p{
+         margin-top: 0px;
+     }
+
+}
+
+/* //////////////////////////////////////////////////////////////// */
+@media screen and (min-width:376px) and (max-width:414px){
+    .divContainer .backBtn a {
+        font-size: 20px;
+    }
+
+    .divContainer .imgheaderNav {
+        width: 80px;
+        height: 48px;
+    }
+    .divContainer p {
+        font-size: 20px;
+    }
+    .divContainer {
+        height: 95px;
+        padding: 23px 42px 0px 9px;
+    }
+    .item img {
+        margin-bottom: -12px;
+        height: 205px;
+    }
+    .fixedPosition{
+        width: 100%
+    }
+    #bookNow {
+        font-size: 1.7rem;
+        background-color: #0dcaca;
+        color: white;
+        width: 40%;
+        height: 75px;
+    }
+    #ticketType {
+        font-size: 1.1rem;
+        width: 30%;
+        height: 75px;
+        border-right: 1px solid gray;
+    }
+    #but1 {
+        font-size: 1.1rem;
+        width: 30%;
+        height: 75px;
+    }
+    .fixedPosition {
+        height: 75px;
+    }
+
+    #downArrow2 {
+        position: relative;
+        left: 4px;
+        bottom: 9px;
+    }
+    #myModal .modal-content {
+        width: 100%;
+        height: 306px;
+    }
+
+    .modal.show .modal-dialog {
+        margin-top: 80px;
+        max-width: 500px;
+        max-height: 500px;
+    }
+    .modal-header h5{
+    font-size: 1.25rem;
+        padding: 15px;
+    }
+    #modalImage1 {
+        margin-left: 21px;
+        margin-right: 19px;
+        height: 143px;
+        width: 41%;
+        margin-top: 22px;
+    }
+    #modalImage2{
+        height: 143px;
+        width: 41%;
+        margin-top: 22px;  
+    }
+
+    #modalImage1 img {
+        width: 100%;
+    }
+    
+    #modalImage2 img{
+        width: 100%;  
+    }
+    #modalImage1 p{
+        font-size: 15px;
+    }
+    
+    #modalImage2 p{
+        font-size: 15px;
+     }
+    
+     .modal-footer{
+        font-size: 15px;
+     }
+     p{
+         margin-top: 0px;
+     }
+
+}
+
+/* ///////////////media for screen 320 px////////////// */
+@media (max-width:320px){
+    .divContainer{
+        height: 55px;
+        padding: 3px 42px 0px 9px;
+    }
+    
+    .divContainer p{
+        font-size: 16px;
+    }
+    .divContainer .imgheaderNav {
+        width: 55px;
+        height: 35px;
+    }
+    .divContainer .backBtn a{
+        font-size: 16px;
+    }
+    .item img {
+        width: 100%;
+       height: 158px;
+       margin-bottom: -4px;
+    }
+    .item {
+        margin-bottom: 10px;
+    }
+    .fixedPosition{
+        width: 100%;
+        height: 55px;
+    }
+    #bookNow {
+        font-size: 1.2rem;
+        background-color: #0dcaca;
+        color: white;
+        width: 40%;
+        height: 55px;
+    }
+
+    #but1 {
+        font-size: 0.8rem;
+        width: 30%;
+        height: 55px;
+    }
+    #ticketType {
+        font-size: 0.7rem;
+        width:30%;
+        height: 55px;
+        border-right: 1px solid gray;
+    }
+
+    #downArrow2{
+        position: relative;
+       left: 10px;
+       bottom: 11px;
+    }
+    #downArrow1{
+    position: relative;
+    left: 7px;
+    bottom: 0px;
+    }
+    #myModal .modal-content {
+        width: 90%;
+        height: 285px;
+    }
+
+    .modal.show .modal-dialog {
+        max-width: 100%;
+        max-height: 500px;
+        position: relative;
+        left: 11px;
+        top: 12px;
+    }
+    .modal-header h5{
+    font-size: 1.25rem;
+        padding: 15px;
+    }
+    #modalImage1 img{
+        width: 100%;
+    }
+    .modal-body {
+        margin-top: 20px;
+    }
+    
+    #modalImage2 img{
+        width: 100%;  
+    }
+    #modalImage1 p{
+        font-size: 13px;
+    }
+
+    #modalImage1 {
+        margin-left: 10px;
+        margin-right: 13px;
+        width: 47%;
+        height: 131px;
+        margin-top: 10px;
+    }
+
+    #modalImage2 {
+        width: 47%;
+        height: 131px;
+        margin-top: 10px;
+    }
+    
+    #modalImage2 p{
+        font-size: 13px;
+     }
+    p{
+        margin-top: 0px;
+    }
+     .modal-footer{
+         font-size: 11px;
+     }
+}
+/* /////////////////////////////////////////////////////////////////// */
+@media screen and (min-width:415px) and (max-width:768px){
+    .item img {
+        margin-bottom: -12px;
+        height: 300px;
+        width: 100%;
+    }
+    .fixedPosition {
+        width: 100%;
+        height: 96px;
+    }
+    #bookNow {
+        font-size: 2rem;
+        background-color: #0dcaca;
+        color: white;
+        width: 40%;
+        height: 96px;
+    }
+
+    #but1 {
+        font-size: 1.5rem;
+        width: 30%;
+        height: 96px;
+    }
+    #ticketType {
+            font-size: 1.5rem;
+            width: 30%;
+            height: 96px;
+            border-right: 1px solid gray;
+    }
+    #downArrow2{
+        position: relative;
+        left: 11px;
+        bottom: 0px;
+    }
+    #downArrow1{
+        position: relative;
+    left: 15px;
+    bottom: 0px;
+    }
+    #myModal .modal-content {
+        width: 100%;
+    }
+    
+     p{
+         margin-top: 0px;
+     }
+     #modalImage1 {
+        margin-left: 28px;
+        margin-right: 24px;
+        width: 44%;
+    }
+
+    #modalImage2 {
+        width: 44%;
+    }
+}
+
+
+/* /////////////////////////////////////////////////////////////////// */
+@media screen and (min-width:769px) {
+    .item img {
+        margin-bottom: -12px;
+        height: 407px;
+        width: 100%;
+    }
+    .fixedPosition {
+        width: 100%;
+        height: 115px;
+    }
+    #bookNow {
+        font-size: 2.3rem;
+        background-color: #0dcaca;
+        color: white;
+        width: 40%;
+        height: 115px;
+    }
+
+    #but1 {
+        font-size: 1.7rem;
+        width: 30%;
+        height: 115px;
+    }
+    #ticketType {
+            font-size: 1.7rem;
+            width: 30%;
+            height: 115px;
+           
+    }
+    #downArrow2{
+        position: relative;
+        left: 11px;
+        bottom: 0px;
+    }
+    #downArrow1{
+        position: relative;
+    left: 15px;
+    bottom: 0px;
+    }
+    #myModal .modal-content {
+        width: 100%;
+    }
+    
+     p{
+         margin-top: 0px;
+     }
+     #modalImage1 {
+        margin-left: 28px;
+        margin-right: 24px;
+        width: 44%;
+    }
+
+    #modalImage2 {
+        width: 44%;
+    }
+}
+
+/* ///////////////////////////////////////////////// */

@@ -1,0 +1,304 @@
+html ,body{
+    background-color: rgb(249, 248, 248);
+    margin: 0;
+    padding: 0;
+}
+.divContainer{
+    padding: 17px 42px 0px 9px;
+    background-color: #21cebe;
+}
+.divContainer p{
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 12px;
+}
+.divContainer .backBtn a{
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    position: relative;
+    top: 14px;
+}
+.form-control {
+    width: 100%;
+    height: 54px;
+}
+
+.container {
+    padding-top: 52px;
+    line-height: 2.5;
+}
+
+.selectOption{
+margin-right: 14px;
+width: 82%;
+}
+.next{
+    background-color: #21cebe;
+    padding-top: 6px;
+    height: 50px;
+    margin-bottom: 0px;
+    margin-top: 106px;
+}
+
+.next a{
+    color: white;
+    font-size: x-large;
+    padding-left: 144px;
+    text-decoration: none;
+}
+@media only screen  and (width:411px) and (height:731px){
+     label{
+        font-size: 20px;
+     }
+    
+    .form-control {
+        height: 63px;
+    }
+   .form-group{
+    line-height: 3;
+   }
+    .next a {
+            padding-left: 172px;
+            font-size: 30px;
+            padding-top: 12px;
+    }
+    .next {
+        height: 65px;
+    }
+    .selectOption{
+        margin-right: 50px;
+        width: 82%;
+        }
+}
+
+/* //////////////media query for pixel 2xl/////////////////////////// */
+@media only screen  and (width:411px) and (height:823px){
+    label{
+        font-size: 22px;
+     }
+    
+    .form-control {
+        height: 65px;
+    }
+   .form-group{
+    line-height: 3.5;
+   }
+    .next a {
+            padding-left: 172px;
+            font-size: 30px;
+            padding-top: 12px;
+    }
+    .next {
+      
+        padding-top: 14px;
+        height: 75px;
+        margin-top: 120px;
+    }    
+
+    .selectOption{
+        margin-right: 60px;
+        width: 82%;
+        }
+}
+
+
+@media only screen  and (width:375px) and (height:667px){
+    label{
+        font-size: 17px;
+     }
+     
+    
+    .form-control {
+        height: 63px;
+    }
+   .form-group{
+    line-height: 2.5;
+   }
+    .next a {
+        padding-left: 160px;
+        font-size: 27px;
+    }
+    .next {
+        height: 65px;
+    }
+}
+/* /////////////////////////////////////////////////////////////////// */
+@media only screen  and (width:375px) and (height:812px){
+    label{
+        font-size: 20px;
+     }
+     
+     .container {
+        padding-top: 120px;
+        line-height: 3;
+    }
+    .form-control {
+        height: 63px;
+    }
+    .selectOption {
+        margin-right: 35px;
+        width: 82%;
+    }
+
+    .next a {
+        padding-left: 160px;
+        font-size: 27px;
+    }
+    .next {
+        height: 65px;
+    }
+}
+/* /////////////////////////////////////////////////////////////////// */
+@media (width: 768px){
+    .divContainer {
+        height: 117px;
+        padding: 35px 42px 0px 9px;
+    }
+    .divContainer .backBtn a {
+        font-size: 25px;
+    }
+
+    .divContainer .imgheaderNav{
+        width: 90px;
+       height: 60px;
+}
+
+.divContainer p {
+    font-size: 28px;
+
+}
+label{
+    font-size: 30px;
+}
+.form-control {
+    width: 100%;
+    height: 102px;
+    margin-bottom: 44px;
+    font-size: 20px;
+}
+.phoneInput{
+    margin-left: 97px;
+}
+
+.next {
+    padding-top: 21px;
+    height: 96px;
+}
+.next a {
+    font-size: 36px;
+    padding-left: 341px;    
+}
+}
+
+/* //////////////////////////////////////////////////////////////////////// */
+@media only screen  and (width:320px) and (height:568px){
+    label{
+        font-size: 15px;
+     }
+    
+    .form-control {
+        height: 45px;     
+        padding: .1275rem 0rem;
+        font-size: 11px;
+       padding-left: 10px;
+    }
+    
+   .form-group{
+    line-height: 2;
+   }
+    .next a {
+        padding-left: 141px;
+        font-size: 20px;
+    }
+    .next {
+        height: 47px;
+    }
+
+    .selectOption {
+        margin-right: 43px;
+    }   
+}
+
+/* ///////////////////////////////////////////////////////////////////*/
+@media (min-width: 1024px){
+    .divContainer {
+        height: 147px;
+        padding: 35px 42px 0px 9px;
+    }
+    .divContainer .backBtn a {
+        font-size: 35px;
+    }
+
+    .divContainer .imgheaderNav{
+        width: 125px;
+        height: 72px;
+}
+
+.divContainer p {
+    font-size: 35px;
+
+}
+.container {
+    padding-top: 130px;
+    line-height: 3;
+}
+
+label{
+    font-size: 35px;
+}
+.form-control {
+    width: 100%;
+    height: 102px;
+    margin-bottom: 44px;
+    font-size: 27px;
+}
+.phoneInput{
+    margin-left: 97px;
+}
+
+.next {
+    padding-top: 39px;
+    height: 129px;
+    margin-top: 168px;
+}
+
+.next a {
+    font-size: 46px;
+    padding-left: 509px;  
+}
+}
+/* //////////////////////////////////////////////////////////////////////*/
+@media only screen  and (width:414px) and (height:736px){
+
+    .container {
+        padding-top: 81px;
+    }
+    label{
+        font-size: 20px;
+     }
+    
+    .form-control {
+        height: 50px;     
+        padding: .1275rem 0rem;
+        font-size: 15px;
+        padding-left: 23px;
+    }
+    
+   .form-group{
+    line-height: 3;
+    font-size: 20px;
+   }
+    .next a {
+        padding-left: 185px;
+        font-size: 26px;
+    }
+    .next {
+        height: 67px;
+    }
+
+    .selectOption {
+        margin-right: 43px;
+    }
+}

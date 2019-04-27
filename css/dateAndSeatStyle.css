@@ -1,0 +1,344 @@
+
+html{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   background-color: #ebebec;;
+    width:100%;
+    height:100%;
+}
+
+/* //////media query ///////////////////// */
+@media screen and (min-width:321px) and (max-width:360px){
+    .menu {
+        width: 100%;
+        margin-left: 13px;
+    }
+    .labelHeader h3{
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-top: 29px;
+    }
+    .repeatCheck{
+    background-color: white;
+    width: 40%;
+    height: 43px;
+    font-size: 18px;
+    padding: 7px;
+    margin-left: 12px;
+    border-radius: 7px;
+    font-weight: bold;
+    }
+
+    .fullCheck{
+        width: 38%;
+    background-color: white;
+    font-size: 17px;
+    padding: 7px;
+    height: 43px;
+    margin-left: 39px;
+    border-radius: 7px;
+    font-weight: bold;
+    }
+
+    .form-control{
+        height: 44px;
+        width: 91%;
+        margin-left: 9px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 6px;
+        margin-bottom: 10px;
+    }
+    .footCkeck{
+        margin-bottom: 20px;
+    }
+    .radioCheck {
+    width: 29px;
+    height: 22px;
+    position: relative;
+    top: 5px;
+    }
+}
+
+/* //////////////////////////////////////////////////////////////// */
+@media screen and (min-width:361px) and (max-width:375px){
+    .menu {
+        width: 100%;
+        margin-left: 13px;
+    }
+    .labelHeader h3{
+        font-size: 21px;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-top: 29px;
+    }
+    .repeatCheck{
+    background-color: white;
+    width: 40%;
+    height: 47px;
+    font-size: 21px;
+    padding: 7px;
+    margin-left: 12px;
+    border-radius: 7px;
+    font-weight: bold;
+    }
+
+    .fullCheck{
+     width: 42%;
+    background-color: white;
+    font-size: 20px;
+    padding: 7px;
+    height: 47px;
+    margin-left: 39px;
+    border-radius: 7px;
+    font-weight: bold;
+    }
+
+    .form-control{
+    height: 55px;
+    width: 95%;
+    margin-left: 9px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 13px;
+    }
+    .footCkeck{
+        margin-bottom: 20px;
+    }
+    .radioCheck {
+    width: 29px;
+    height: 22px;
+    position: relative;
+    top: 5px;
+    }
+}
+
+/* //////////////////////////////////////////////////////////////// */
+@media screen and (min-width:376px) and (max-width:414px){
+
+    .menu {
+        width: 100%;
+        margin-left: 13px;
+    }
+    .labelHeader h3{
+        font-size: 21px;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-top: 29px;
+    }
+    .repeatCheck{
+    background-color: white;
+    width: 40%;
+    height: 47px;
+    font-size: 21px;
+    padding: 7px;
+    margin-left: 12px;
+    border-radius: 7px;
+    font-weight: bold;
+    }
+
+    .fullCheck{
+     width: 42%;
+    background-color: white;
+    font-size: 20px;
+    padding: 7px;
+    height: 47px;
+    margin-left: 39px;
+    border-radius: 7px;
+    font-weight: bold;
+    }
+
+    .form-control{
+    height: 55px;
+    width: 93%;
+    margin-left: 9px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 13px;
+    }
+    .footCkeck{
+        margin-bottom: 20px;
+    }
+    .radioCheck {
+    width: 29px;
+    height: 22px;
+    position: relative;
+    top: 5px;
+    }
+}
+
+/* ///////////////media for screen 320 px////////////// */
+@media (max-width:320px){
+    .menu {
+        width: 100%;
+        margin-left: 13px;
+    }
+    .labelHeader h3{
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-top: 29px;
+    }
+    .repeatCheck{
+    background-color: white;
+    width: 40%;
+    height: 43px;
+    font-size: 18px;
+    padding: 7px;
+    margin-left: 12px;
+    border-radius: 7px;
+    font-weight: bold;
+    }
+
+    .fullCheck{
+     width: 42%;
+    background-color: white;
+    font-size: 17px;
+    padding: 7px;
+    height: 43px;
+    margin-left: 39px;
+    border-radius: 7px;
+    font-weight: bold;
+    }
+
+    .form-control{
+        height: 44px;
+        width: 95%;
+        margin-left: 9px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 6px;
+        margin-bottom: 10px;
+    }
+    .footCkeck{
+        margin-bottom: 20px;
+    }
+    .radioCheck {
+    width: 29px;
+    height: 22px;
+    position: relative;
+    top: 5px;
+    }
+}
+
+/* /////////////////////////////////////////////////////////////////// */
+@media screen and (min-width:415px) and (max-width:768px){
+    .menu {
+        width: 100%;
+        margin-left: 13px;
+    }
+    .labelHeader h3{
+        font-size: 27px;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-top: 37px;
+    }
+    .repeatCheck{
+     background-color: white;
+    width: 40%;
+    height: 80px;
+    font-size: 31px;
+    padding: 16px;
+    margin-left: 12px;
+    border-radius: 7px;
+    font-weight: bold;
+    margin-bottom: 18px;
+    }
+
+    .fullCheck{
+    width: 43%;
+    background-color: white;
+    font-size: 31px;
+    padding: 16px;
+    height: 80px;
+    margin-left: 96px;
+    border-radius: 7px;
+    font-weight: bold;
+    margin-bottom: 18px;
+    }
+
+    .form-control{
+        height: 65px;
+        width: 97%;
+        margin-left: 9px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 13px;
+        font-size: 25px;
+        color: #bbb6b6;
+        margin-bottom: 26px;
+    }
+    .footCkeck{
+        margin-bottom: 20px;
+    }
+    .radioCheck {
+        width: 40px;
+        height: 32px;
+        position: relative;
+        top: 5px;
+    }
+}
+
+/* /////////////////////////////////////////////////////////////////// */
+@media screen and (min-width:769px) {
+
+    .menu {
+        width: 100%;
+        margin-left: 13px;
+    }
+    .labelHeader h3{
+    font-size: 37px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 60px;
+    }
+    .repeatCheck{
+        background-color: white;
+        width: 40%;
+        height: 95px;
+        font-size: 41px;
+        padding: 16px;
+        margin-left: 12px;
+        border-radius: 9px;
+        font-weight: bold;
+        margin-bottom: 18px;
+    }
+
+    .fullCheck{
+        width: 45%;
+        background-color: white;
+        font-size: 42px;
+        padding: 16px;
+        height: 95px;
+        margin-left: 109px;
+        border-radius: 9px;
+        font-weight: bold;
+        margin-bottom: 18px;
+    }
+
+    .form-control{
+    height: 101px;
+    width: 97%;
+    margin-left: 9px;
+    border: none;
+    border-radius: 9px;
+    margin-top: 13px;
+    font-size: 30px;
+    color: #bbb6b6;
+    margin-bottom: 26px;
+    }
+    .footCkeck{
+        margin-bottom: 20px;
+    }
+    .radioCheck {
+    width: 50px;
+    height: 42px;
+    position: relative;
+    top: 5px;
+    }
+}
+
+

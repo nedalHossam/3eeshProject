@@ -1,0 +1,263 @@
+
+html{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   background-color: #ebebec;;
+    width:100%;
+    height:100%;
+}
+
+.publishfooter{
+    width: 100%;
+    background-color: #21cebe;
+}
+
+/* //////media query ///////////////////// */
+@media screen and (min-width:321px) and (max-width:360px){
+    .menu {
+        width: 100%;
+        margin-left: 13px;
+    }
+
+    .publishfooter a {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.PublishCkeck{
+    font-size: 14px;
+    margin-left: 0px;
+    margin-top: 20px;
+    font-weight: bold;
+  
+}
+
+.publishfooter {
+    background-color: #21cebe;
+    width: 100%;
+    height: 56px;
+    margin-top: 242px;
+    text-align: center;
+}
+}
+
+/* //////media query ///////////////////// */
+@media screen and (min-width:361px) and (max-width:375px){
+
+    .menu {
+        width: 100%;
+        margin-left: 13px;
+    }
+
+    .publishfooter a {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.PublishCkeck{
+    font-size: 14px;
+    margin-left: 0px;
+    margin-top: 20px;
+    font-weight: bold;
+  
+}
+
+.publishfooter {
+    background-color: #21cebe;
+    width: 100%;
+    height: 56px;
+    margin-top: 408px;
+    text-align: center;
+}   
+}
+/* //////////////////////////////////////////////////////////////// */
+@media only screen and (width:411px) and (height:823px){
+
+
+    .menu {
+        width: 100%;
+        margin-left: 13px;
+    }
+
+ .publishfooter a {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    position: relative;
+    top: 15px;
+}
+
+.PublishCkeck{
+    font-size: 16px;
+    margin-left: 0px;
+    margin-top: 20px;
+    font-weight: bold;
+  
+}
+
+.publishfooter {
+    background-color: #21cebe;
+    width: 100%;
+    height: 56px;
+    margin-top: 328px;
+    text-align: center;
+}
+
+}
+
+
+/* //////////////////////////////////////////////////////////////// */
+@media screen and (min-width:376px) and (max-width:414px){
+    .menu {
+        width: 100%;
+        margin-left: 13px;
+    }
+
+ .publishfooter a {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    position: relative;
+    top: 15px;
+}
+
+.PublishCkeck{
+    font-size: 16px;
+    margin-left: 0px;
+    margin-top: 20px;
+    font-weight: bold;
+  
+}
+
+.publishfooter {
+    background-color: #21cebe;
+    width: 100%;
+    height: 56px;
+    margin-top: 412px;
+    text-align: center;
+}
+}
+
+
+
+/* ///////////////media for screen 320 px////////////// */
+@media (max-width:320px){
+    .menu {
+        width: 100%;
+        margin-left: 13px;
+    }
+
+.publishfooter a {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    top: 15px;
+}
+
+.PublishCkeck{
+    font-size: 12px;
+    margin-left: 0px;
+    margin-top: 20px;
+    font-weight: bold;
+  
+}
+
+.publishfooter {
+    background-color: #21cebe;
+    width: 100%;
+    height: 60px;
+    margin-top: 319px;
+    text-align: center;
+}
+}
+
+/* /////////////////////////////////////////////////////////////////// */
+@media screen and (min-width:415px) and (max-width:768px){
+
+    .menu {
+        width: 100%;
+        margin-left: 13px;
+    }
+
+.publishfooter a {
+    color: white;
+    font-weight: bold;
+    font-size: 31px;
+    position: relative;
+    top: 15px;
+}
+
+.PublishCkeck{
+    font-size: 25px;
+    margin-left: 0px;
+    margin-top: 50px;
+    font-weight: bold;
+  
+}
+
+.publishfooter {
+    background-color: #21cebe;
+    width: 100%;
+    height: 74px;
+    margin-top: 447px;
+    text-align: center;
+}
+
+.paidCheck{
+    width: 40px;
+    height: 27px;
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
+}
+}
+
+
+/* /////////////////////////////////////////////////////////////////// */
+@media screen and (min-width:769px) {
+    .menu {
+        width: 100%;
+        margin-left: 13px;
+    }
+
+.publishfooter a {
+    color: white;
+    font-weight: bold;
+    font-size: 38px;
+    position: relative;
+    top: 35px;
+}
+
+.PublishCkeck{
+    font-size: 33px;
+    margin-left: 0px;
+    margin-top: 82px;
+    font-weight: bold;
+  
+}
+
+.publishfooter {
+    background-color: #21cebe;
+    width: 100%;
+    height: 123px;
+    margin-top: 622px;
+    text-align: center;
+}
+
+.paidCheck{
+    width: 40px;
+    height: 27px;
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
+}
+}

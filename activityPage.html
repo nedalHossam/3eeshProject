@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ'
+          crossorigin='anonymous'>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+
+
+
+
+    <link href="css/indexStyle.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+
+</head>
+
+<body >
+
+<!-- Navigation
+    ==========================================-->
+    <div class="d-flex justify-content-between  divContainer">
+        <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn " onclick="closeNav()"><i class="fas fa-chevron-left  primary"></i></a>
+                <img class="imgSlideNav" src="images/Logoedit.png"/><br><br>
+                <div class="d-flex">
+                  <a href="#"><img src="images/account.png" width="15px" height="15px"/>my account</a>
+                  <a href="#"><img src="images/sign out.png" width="15px" height="15px"/>sign out</a>
+              </div>
+              <hr class="navLine">
+                <a href="#" class="navLink"><img src="images/home.png" width="15px" height="15px"/>&nbsp; home</a>
+                <a href="#" class="navLink"><img src="images/reservation list.png"  width="15px" height="15px"/>&nbsp;reservation lists</a>
+                <a href="#" class="navLink"><img src="images/ticket.png"  width="15px" height="15px"/>&nbsp;find reservation</a>
+                <a href="#" class="navLink"><img src="images/report.png" width="15px" height="15px"/>&nbsp;financial reports</a>
+                <a href="#" class="navLink"><img src="images/camping.png" width="15px" height="15px"/>&nbsp;my activities</a>
+                <a href="#" class="navLink"><img src="images/asset-15.png" width="15px" height="15px"/>&nbsp;add an advertisment</a>
+                <a href="#" class="navLink"><img src="images/services.png" width="15px" height="15px"/>&nbsp;services</a>
+                <a href="#" class="navLink">add new service</a>
+                <a href="#" class="navLink">previous request</a>
+              </div>
+              <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fas fa-align-left sidenavIcon" style="color:white;margin-top: 11px;"></i></span>
+              <img class="imgheaderNav" src="images/Logo_white.png" width="77px" height="40px"/>
+              <a href="#"><p class="arabPar" style="color:white;margin-top: 20px">AR</p></a>
+             <!---------------------- end Navigation ---------------->
+    </div>
+    
+    <!-- slide 
+        ==========================================-->
+    <div class="container-fluid">
+        <div class="row backgroundImage">
+            <img src="images/IMG-20181108-WA0024.jpg" width="100%" height="110px">
+        </div>
+    </div>
+    
+    
+    <div class="container-fluid content">
+        <div class="clearfix Icons" id="allIcons">
+            <div class="float-left">
+              <span class="p-2"><a href="index.html"><i class="fas fa-globe-europe" style="color:#21cebe;"></i></a></span>
+              <span class="p-2"><a href="activityPage.html"><img src="images\camping.png" style="color:#21cebe; " width="25px" height="25px"></a></span>
+              <span class="p-2"><a href="mapPage.html"><i class="fa fa-map-marked-alt" style="color:#21cebe;"></i></a></span>
+            </div>
+    
+            <div class="float-right">
+            <span  class="searchIcon  p-3"><button onclick="toggeleShow()" id="searchIcon" ><i class="fa fa-search" style="color:#21cebe;"></i></button></span>
+            </div>
+        </div>
+    
+        <div class="row search-wrapper" id="searchInput">
+            <form>
+                <input type="text" name="focus" required class="search-box" placeholder="try a city name" />
+    
+                <button type="button" class="close close-icon" data-dismiss="modal" onclick="closeSearch()"></button>
+            </form>
+        </div>
+    
+    <div id="nextSearch">
+        <div class="clearfix cityHeader ">
+            <div class="float-left "><p>activities</p></div>
+            <div class="float-right " ><a href="activityDetails.html">see all</a></div>
+        </div>
+
+
+        <!-- City and Country Content slider========================================-->
+
+        <div class="row">
+
+            <div  class="owl-carousel owl-theme">
+                <div class="item countryData">
+                    <a href="mapPage.html"><img  class="img-fluid p-1" src="images/alhasa.png"></a>
+                    <div class="top-left countryName">activity type</div>
+                    <div class="bottom-right countryPrice">50 activities</div>
+                </div>
+                <div class="item countryData">
+                   <a href="mapPage.html"><img class="img-fluid p-1" src="images/alhasa4.jpg"></a>
+                    <div class="top-left countryName">activity type</div>
+                    <div class="bottom-right countryPrice">50 activities</div>
+                </div>
+                <div class="item countryData">
+                    <a href="mapPage.html"> <img class="img-fluid p-1" src="images/hail_2.jpg"></a>
+                    <div class="top-left countryName">activity type</div>
+                    <div class="bottom-right countryPrice">50 activities</div>
+                </div>
+                <div class="item countryData">
+                    <a href="mapPage.html"><img class="img-fluid p-1" src="images/Jeddah1.jpg"></a>
+                    <div class="top-left countryName">activity type</div>
+                    <div class="bottom-right countryPrice">50 activities</div>
+                </div>
+                <div class="item countryData">
+                    <a href="mapPage.html"><img class="img-fluid p-1" src="images/jeddah652151_1920.jpg"></a>
+                    <div class="top-left countryName">activity type</div>
+                    <div class="bottom-right countryPrice">50 activities</div>
+                </div>
+                <div class="item countryData">
+                 <a href="mapPage.html"><img class="img-fluid p-1" src="images/kayak_8.jpg"></a>
+                    <div class="top-left countryName">activity type</div>
+                    <div class="bottom-right countryPrice">50 activities</div>
+                </div>
+                <div class="item countryData">
+                 <a href="mapPage.html"><img class="img-fluid p-1" src="images/riyadh7.jpg"></a>
+                    <div class="top-left countryName">activity type</div>
+                    <div class="bottom-right countryPrice">50 activities</div>
+                </div>
+                <div class="item countryData">
+                <a href="mapPage.html"><img class="image-fluid p-1" src="images/Tokyo1.jpg"></a>
+                    <div class="top-left countryName">activity type</div>
+                    <div class="bottom-right countryPrice">50 activities</div>
+                </div>
+                <div class="item countryData">
+                <a href="mapPage.html"><img class="image-fluid p-1" src="images/tabuk1.jpg"></a>
+                    <div class="top-left countryName">activity type</div>
+                    <div class="bottom-right countryPrice">50 activities</div>
+                </div>
+                <div class="item countryData">
+                 <a href="mapPage.html"><img class="image-fluid p-1" src="images/Sharm_El_Shaikh3.jpg"></a>
+                    <div class="top-left countryName">activity type</div>
+                    <div class="bottom-right countryPrice">50 activities</div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+
+        <!-- activity Program ==================================-->
+
+        <div class="clearfix activityHeader ">
+            <div class="float-left "><p>most active programs</p></div>
+            <div class="float-right"  style="margin-right: 0px; font-size: 14px;"><a href="#">see all</a></div>
+        </div>
+
+
+
+        <!--Activity Slider-->
+        <div class="row">
+
+
+            <div  class="owl-carousel owl-theme">
+                <div class="item activity mr-1">
+                 <a href="mapPage.html"><img  class="img-fluid p-1 activityImage" src="images/12.jpg"></a>
+
+
+                    <div class="caption">
+                        <p>activity name</p>
+                    </div>
+                    <div  id="rating d-flex">&nbsp;&nbsp;
+                        <span ><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star-half-alt" style="color: #ffcf16"></i></span>
+                    </div>
+                    <div class="info">
+                        <div >Riyadh</div>
+                        <div >3-10-2019</div>
+                        <div class="clearfix">
+                            <div class="float-left" style="color: red">3 days left</div>&nbsp;
+                            <div class="float-right">250 RS</div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="item activity mr-1">
+                 <a href="mapPage.html"><img class="img-fluid p-1 activityImage" src="images/11.jpg"></a>
+                    <div class="caption">
+                        <p>activity name</p>
+                    </div>
+
+                    <div  class="rating d-flex">&nbsp;&nbsp;
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star-half-alt" style="color: #ffcf16"></i></span>
+                    </div>
+
+                    <div class="info">
+                        <div >Riyadh</div>
+                        <div >3-10-2019</div>
+                        <div class="clearfix">
+                            <div class="float-left" style="color: red">3 days left</div>&nbsp;
+                            <div class="float-right">250 RS</div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="item  activity mr-1">
+                 <a href="mapPage.html"><img class="img-fluid p-1  activityImage" src="images/13.jpg"></a>
+                    <div class="caption">
+                        <p>activity name</p>
+                    </div>
+                    <div  class="rating d-flex">&nbsp;&nbsp;
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star-half-alt" style="color: #ffcf16"></i></span>
+                    </div>
+                    <div class="info">
+                        <div >Riyadh</div>
+                        <div >3-10-2019</div>
+                        <div class="clearfix">
+                            <div class="float-left" style="color: red">3 days left</div>&nbsp;
+                            <div class="float-right">250 RS</div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="item activity mr-1">
+                  <a href="mapPage.html"><img class="img-fluid p-1 activityImage" src="images/14.jpg"></a>
+                    <div class="caption">
+                        <p>activity name</p>
+                    </div>
+                    <div  class="rating d-flex">&nbsp;&nbsp;
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star-half-alt" style="color: #ffcf16"></i></span>
+                    </div>
+                    <div class="info">
+                        <div >Riyadh</div>
+                        <div >3-10-2019</div>
+                        <div class="clearfix">
+                            <div class="float-left" style="color: red">3 days left</div>&nbsp;
+                            <div class="float-right">250 RS</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="item  activity mr-1">
+                  <a href="mapPage.html"><img class="img-fluid p-1 activityImage" src="images/15.jpg"></a>
+                    <div class="caption">
+                        <p>activity name</p>
+                    </div>
+                    <div  class="rating d-flex">&nbsp;&nbsp;
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star-half-alt" style="color: #ffcf16"></i></span>
+                    </div>
+                    <div class="info">
+                        <div >Riyadh</div>
+                        <div >3-10-2019</div>
+                        <div class="clearfix">
+                            <div class="float-left" style="color: red">3 days left</div>&nbsp;
+                            <div class="float-right">250 RS</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="item activity mr-1">
+                <a href="mapPage.html"><img class="img-fluid p-1 activityImage" src="images/clark-young-403377-unsplash.jpg"></a>
+                    <div class="caption">
+                        <p>activity name</p>
+                    </div>
+                    <div class="rating d-flex">&nbsp;&nbsp;
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star-half-alt" style="color: #ffcf16"></i></span>
+                    </div>
+                    <div class="info">
+                        <div >Riyadh</div>
+                        <div >3-10-2019</div>
+                        <div class="clearfix">
+                            <div class="float-left" style="color: red">3 days left</div>&nbsp;
+                            <div class="float-right">250 RS</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="item  activity  mr-1">
+                <a href="mapPage.html"><img class="img-fluid p-1 activityImage" src="images/koen-van-ginkel-349246-unsplash.jpg"></a>
+                    <div class="caption">
+                        <p>activity name</p>
+                    </div>
+                    <div  class="rating d-flex">&nbsp;&nbsp;
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star-half-alt" style="color: #ffcf16"></i></span>
+                    </div>
+                    <div class="info">
+                        <div >Riyadh</div>
+                        <div >3-10-2019</div>
+                        <div class="clearfix">
+                            <div class="float-left" style="color: red">3 days left</div>&nbsp;
+                            <div class="float-right">250 RS</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="item  activity mr-1">
+                 <a href="mapPage.html"><img class="image-fluid p-1 activityImage" src="images/marvin-meyer-111904-unsplash (1).jpg"></a>
+                    <div class="caption">
+                        <p>activity name</p>
+                    </div>
+                    <div  class="rating d-flex">&nbsp;&nbsp;
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star-half-alt" style="color: #ffcf16"></i></span>
+                    </div>
+                    <div class="info">
+                        <div >Riyadh</div>
+                        <div >3-10-2019</div>
+                        <div class="clearfix">
+                            <div class="float-left" style="color: red">3 days left</div>&nbsp;
+                            <div class="float-right">250 RS</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="item activity  mr-1">
+         <a href="mapPage.html"> <img class="image-fluid p-1 activityImage" src="images/roberto-gerco-585372-unsplash.jpg"></a>
+                    <div class="caption">
+                        <p>activity name</p>
+                    </div>
+                    <div  class="rating d-flex">&nbsp;&nbsp;
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star-half-alt" style="color: #ffcf16"></i></span>
+                    </div>
+                    <div class="info">
+                        <div >Riyadh</div>
+                        <div >3-10-2019</div>
+                        <div class="clearfix">
+                            <div class="float-left" style="color: red">3 days left</div>&nbsp;
+                            <div class="float-right">250 RS</div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="item activity  mr-1">
+        <a href="mapPage.html"><img class="image-fluid p-1 activityImage" src="images/matej-vittek-106971-unsplash.jpg"></a>
+                    <div class="caption">
+                        <p>activity name</p>
+                    </div>
+                    <div  class="rating d-flex">&nbsp;&nbsp;
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+                        <span><i class="fas fa-star-half-alt" style="color: #ffcf16"></i></span>
+                    </div>
+                    <div class="info">
+                        <div >Riyadh</div>
+                        <div >3-10-2019</div>
+                        <div class="clearfix">
+                            <div class="float-left" style="color: red">3 days left</div>&nbsp;
+                            <div class="float-right">250 RS</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <!-- footer ==================================-->
+
+
+
+    </div>
+
+    <!-- footer slider ==================================-->
+    <footer>
+        <div class="container-fluid" style="background-color: rgb(249, 242, 242); ">
+            <div class="partnerHeader">
+                <div><p><strong>Our partners</strong></p></div>
+            </div>
+
+            <div class="customer-logos slider">
+                <div class="slide"><img src="images/0120.png" width="80px" height="50px"></div>
+                <div class="slide"><img src="images/referans-5.png" width="80px" height="50px"></div>
+                <div class="slide"><img src="images/referans-4.png" width="80px" height="50px"></div>
+                <div class="slide"><img src="images/referans-3.png" width="80px" height="50px"></div>
+                <div class="slide"><img src="images/referans-2.png" width="80px" height="50px"></div>
+                <div class="slide"><img src="images/0120.png" width="80px" height="50px"></div>
+                <div class="slide"><img src="images/referans-5.png" width="80px" height="50px"></div>
+            </div>
+
+        </div>
+
+
+    </footer>
+    <!-- <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script> -->
+</div>
+<script src="js/owl.carousel.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

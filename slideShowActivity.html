@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ'
+        crossorigin='anonymous'>
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+    <link href="css/slideShowActivityStyle.css" rel="stylesheet">
+
+</head>
+
+<body >
+    
+<!-- Navigation
+    ==========================================-->
+    <div class="d-flex justify-content-between  divContainer">
+    
+        <div class="backBtn"><a href="activityDetails.html"><i class="fas fa-chevron-left p-2"></i>back</a></div>
+       <div><img class="imgheaderNav" src="images/Logo_white.png" width="77px" height="40px"/></div>
+      <div><a href="#"><p style="color:white;margin-top: 20px">AR</p></a></div>
+         <!---------------------- end Navigation ---------------->
+</div>
+
+<!-- slideShow
+    ==========================================-->
+
+        <div class="container-fluid">
+            <!-- <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span> -->
+            <a href="GallaryImageVerticalSlider.html"><img id="expandedImg" src="images/12.jpg" style="width:100%"></a>
+            <div id="imgtext"></div>
+          </div>
+          
+          <div class="row">
+                <div class="column" id="blockImage">
+                  <img src="images/12.jpg"  style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                  <img src="images/13.jpg"  style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                  <img src="images/14.jpg"  style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                  <img src="images/15.jpg"  style="width:100%" onclick="myFunction(this);">
+                </div>
+              </div>
+
+<!-- end slideShow
+    ==========================================-->
+
+     <div class="container textContent">
+       <div class="row">
+         <div class="col-md-8 col-sm-8 col-8">
+          <div class="d-flex">
+            <div class="mr-2 activityName"><strong>activity name</strong> </div>
+            <img class="shareImage"  src="images/share.png" width="25px" height="25px" >
+        </div>
+         </div>
+
+         <div class="col-md-4 col-sm-4 col-4">
+          <div class="normal">normal level</div>
+         </div>
+       </div>
+
+       <div class="row ">
+        
+          <div class="col-md-6 col-sm-6 col-6">
+          <span ><i class="fas fa-star" style="color: #ffcf16"></i></span>
+          <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+          <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+          <span><i class="fas fa-star" style="color: #ffcf16"></i></span>
+          <span><i class="fas fa-star-half-alt" style="color: #ffcf16"></i></span>
+          </div>
+          <div class="col-md-6 col-sm-6 col-6 ">
+              <div  class="activeOrganizer"><strong>active organizer</strong></div>
+          </div>
+      
+       </div>
+
+       <div class="row ml-3">    
+              <div >Riyadh</div>
+
+       </div>
+       <div class="row ml-3">  
+              <div >3-10-2019</div>
+       </div>
+              <div class="row">
+                  <div class="col-md-5 col-sm-5 col-5"><div><strong>250 RS</strong></div></div>
+                  <div class="col-md-4 col-sm-4 col-4" ><div style="color: red"> days left</div></div>
+                  <div class="col-md-3 col-sm-3 col-3"><div>family</div></div>
+                 
+              </div>
+
+          
+
+
+             <!-- /////////////////////////////////////////////////// -->
+             
+</div>
+
+              
+              <!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h5 class="modal-title">book as...</h5>
+        <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+       <div class="d-flex">
+        <div id="modalImage1">
+         <a href="loginPage.html"><img src="images/undraw_campfire_s-1.png">
+          <p style="text-align:center">adventurer</p></a>
+        </div>
+
+        <div id="modalImage2">
+            <a href="visitorLogin.html"><img src="images/undraw_product_tour_foyt.png">
+             <p style="text-align:center">visitor</p></a>
+           </div>
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+       <p>you can book as visitor if you do not have an account</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+     </div>
+
+
+     <div class=" fixedPosition">
+      <div class="d-flex">
+      <button type="button" class="btn" id="bookNow" data-toggle="modal" data-target="#myModal">book now</button>
+      <button type="button" class="btn" id="ticketType" >ticket type<i id="downArrow1" class="fas fa-chevron-down" style="color:#0dcaca;"></i></button>
+      <button  id="but1"  type="button" class="btn myLinkToTop"  >ticket number<i id="downArrow2" class="fas fa-chevron-down" style="color:#0dcaca;"></i></button>
+    </div>
+  </div>
+
+  <!-- /////////////////////////////////////////////////////////////////////////////// -->
+      
+ <div id="hideSection">
+<div class="secondSection">
+
+  <div class="firstSection">
+  <h4><strong>description</strong></h4>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+     sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+      Ut wisi enim ad minim veniam. 
+    </p>
+    <br>
+<a href="#" class="float-right">show all</a>
+</div>
+
+<div class="thirdSection">
+<h4><strong>paid service</strong></h4>
+     <div class="d-flex justify-content-around iconCon">
+   <div class="paidIcon">
+     <img src="images/soda.png">
+     <p><strong>cold drinks</strong></p>
+   </div>
+
+   <div class="paidIcon">
+      <img src="images/bbq.png">
+      <p><strong>barbque</strong></p>
+    </div>
+
+
+    <div class="paidIcon3">
+        <img src="images/helmet.png">
+        <p><strong>helmet</strong></p>
+      </div>
+
+      <div class="paidIcon4">
+          <img src="images/photograph.png">
+          <p><strong>photograph</strong></p>
+        </div>
+     </div>
+     <br>
+     <a href="#" class="float-right">show all</a>
+        <br>
+      </div>
+
+      <!-- ///////////////////////////////////////////////////////////// -->
+<div class="mapFrame">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14948644.59494812!2d36.03957103039323!3d23.83383410636457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15e7b33fe7952a41%3A0x5960504bc21ab69b!2sSaudi+Arabia!5e0!3m2!1sen!2seg!4v1551046449854"  height="250" frameborder="1" style="border:0" allowfullscreen>
+    </iframe>
+    <br><br>
+</div>
+
+<!-- ////////////////////////////////////////////////////////////////////////////// -->
+<div class="fourthSection">
+    <h4><strong>description</strong></h4>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+       sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        Ut wisi enim ad minim veniam. 
+      </p>
+      <br>
+  <a href="#" class="float-right">show all</a>
+  
+</div>
+
+<!-- ////////////////////////////////////////////////////////////////////////////////////// -->
+
+<div class="lastSection">
+
+    <h4><strong>important notes</strong></h4>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex
+      ea commodo consequat.</p>
+      <br>
+  <a href="#" class="float-right">show all</a>
+  </div>
+    <br><br> 
+</div> 
+  <br><br>           
+  <!-- ///////////////////////////////////////////////////////////////////  -->
+
+  <!-- <div class="thirdSection">
+
+      <h4><strong>paid service</strong></h4>
+     <div class="d-flex justify-content-around iconCon">
+   <div class="paidIcon">
+     <img src="images/soda.png">
+     <p><strong>cold drinks</strong></p>
+   </div>
+
+   <div class="paidIcon">
+      <img src="images/bbq.png">
+      <p><strong>barbque</strong></p>
+    </div>
+
+
+    <div class="paidIcon3">
+        <img src="images/helmet.png">
+        <p><strong>helmet</strong></p>
+      </div>
+
+      <div class="paidIcon4">
+          <img src="images/photograph.png">
+          <p><strong>photograph</strong></p>
+        </div>
+     </div>
+     <br>
+     <a href="#" class="float-right">show all</a>
+        <br>
+  </div> -->
+        <!---
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14948644.59494812!2d36.03957103039323!3d23.83383410636457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15e7b33fe7952a41%3A0x5960504bc21ab69b!2sSaudi+Arabia!5e0!3m2!1sen!2seg!4v1551046449854" width="450" height="250" frameborder="1" style="border:0 ;margin: -12px;" allowfullscreen>
+        </iframe>
+        <br><br>
+        <div>
+        <h4><strong>terms</strong></h4>
+       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex
+          ea commodo consequat.</p>
+         <br>
+      <a href="#" class="float-right">show all</a>
+
+    </div>
+
+        
+    </div>
+
+
+    <div class="container-fluid  lastSection">
+
+        <h4><strong>important notes</strong></h4>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex
+          ea commodo consequat.</p>
+          <br>
+      <a href="#" class="float-right">show all</a>
+      </div>
+        <br><br>           
+          --> 
+      </div>             
+
+
+
+      <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
